@@ -6,7 +6,6 @@ class Time extends Component {
   render() {
     const { timeline } = this.props
     const events = Object.keys(timeline)
-    console.log(events)
     return events.map((event, i) => {
       return (
         <div key={i}>
