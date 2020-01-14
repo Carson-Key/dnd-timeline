@@ -189,7 +189,7 @@ export const timeline = {
   },
   AK116: {
   	date: "116 AK",
-  	description: "War for the New World is fought"
+  	description: "War for the New World strats"
   },
   AK138: {
   	date: "138 AK",
@@ -202,6 +202,10 @@ export const timeline = {
   "AK141-2": {
   	date: "141 AK",
   	description: "The Atheria Empire Erupts in Civil War"
+  },
+  "AK141-3": {
+  	date: "141 AK",
+  	description: "War for the New World ends"
   },
   "AK144-1": {
   	date: "144 AK",
@@ -218,22 +222,6 @@ export const timeline = {
   "AK144-4": {
   	date: "144 AK",
   	description: "Kingdom of Gothoia is Reformed"
-  },
-  AK148: {
-  	date: "148 AK",
-  	description: "Nokede Civil War Starts"
-  },
-  "AK152-1": {
-  	date: "152 AK",
-  	description: "Nokede Civil War Ends"
-  },
-  "AK152-2": {
-  	date: "152 AK",
-  	description: "Fake Africa is Formed"
-  },
-  "AK152-3": {
-  	date: "152 AK",
-  	description: "Elvish Nokedia is Formed"
   },
   AK155: {
   	date: "155 AK",
@@ -747,9 +735,17 @@ export const timeline = {
   	date: "773 AK",
   	description: "Krag Passes Due to Poor Health From a Life of Battle"
   },
-  AK774: {
+  "AK774-1": {
   	date: "774 AK",
   	description: "Atherion Annexs Part of Old Nomeria"
+  },
+  "AK774-2": {
+  	date: "774 AK",
+  	description: "Nokede Civil War Starts"
+  },
+  "AK774-3": {
+  	date: "776 AK",
+  	description: "Fake Africa joins Elvish Nokedia in the Nokede Civil War"
   },
   "AK775-1": {
   	date: "775 AK",
@@ -759,13 +755,17 @@ export const timeline = {
   	date: "775 AK",
   	description: "The Pirate Nation Forms"
   },
-  AK776: {
-  	date: "776 AK",
-  	description: "Fake Africa and Elvish Nokedia End War against Nokede"
-  },
   AK777: {
   	date: "777 AK",
   	description: "Creamy Ice Cone Passes of Old Age"
+  },
+  "AK782-1": {
+  	date: "782 AK",
+  	description: "Nokede Civil War Ends"
+  },
+  "AK782-2": {
+  	date: "782 AK",
+  	description: "Elvish Nokedia is Formed"
   },
   AK784: {
   	date: "784 AK",
