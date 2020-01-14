@@ -1,4 +1,6 @@
 import React, { Component } from 'react'
+import './index.css'
+import { Media } from 'reactstrap'
 
 class Time extends Component {
   render() {
@@ -7,9 +9,18 @@ class Time extends Component {
     console.log(events)
     return events.map((event, i) => {
       return (
-        <div>
-          <p>Date: {timeline[event].date}</p>
-          <p>Event: {timeline[event].description}</p>
+        <div key={i}>
+          <p className="line"></p>
+          <Media>
+            <Media body>
+              <Media heading>
+                {timeline[event].date}
+              </Media>
+              {timeline[event].description}
+            </Media>
+          </Media>
+          <p className="line"></p>
+          <br/>
         </div>
       )
     })
