@@ -8,8 +8,7 @@ class Time extends Component {
     const events = Object.keys(timeline)
     return events.map((event, i) => {
       return (
-        <div key={i}>
-          <p className="line"></p>
+        <center key={i}>
           <Media>
             <Media body>
               <Media heading>
@@ -18,9 +17,8 @@ class Time extends Component {
               {timeline[event].description}
             </Media>
           </Media>
-          <p className="line"></p>
           <br/>
-        </div>
+        </center>
       )
     })
   }
