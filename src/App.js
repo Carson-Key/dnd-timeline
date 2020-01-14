@@ -1,12 +1,15 @@
-import React from 'react';
-import './App.css';
+import React, { Component } from 'react'
+import './App.css'
+import Time from './containers/Time'
 
-function App() {
-  return (
-    <div>
-      Stuff
-    </div>
-  );
+class App extends Component {
+  render() {
+    return (
+      <div>
+        <Time/>
+      </div>
+    )
+  }
 }
 
-export default App;
+export default App
