@@ -7,7 +7,7 @@ class App extends Component {
   render() {
     return (
       <div>
-        <Time timeline={timeline} />
+        <Time timeline={timeline} lessThanYearZero="EG" greaterThanYearZero="AK" />
       </div>
     )
   }
