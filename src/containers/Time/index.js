@@ -18,6 +18,8 @@ class Time extends Component {
             </Media>
           </Media>
           <br/>
+          <div className="line"></div>
+          <br/>
         </center>
       )
     })
