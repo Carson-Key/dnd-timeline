@@ -11,12 +11,23 @@ class Time extends Component {
       <br />
         {
           events.map((event, i) => {
+            var dateNumber = timeline[event].date
+            var date
+            if (dateNumber < 0) {
+              date = Math.abs(timeline[event].date)
+              date = date.toString()
+              date = date + " " + this.props.lessThanYearZero
+            } else if (dateNumber >= 0) {
+              date = Math.abs(timeline[event].date)
+              date = date.toString()
+              date = date + " " + this.props.greaterThanYearZero
+            }
             return (
               <center key={i}>
                 <Media>
                   <Media body>
                     <Media heading>
-                      {timeline[event].date}
+                      {date}
                     </Media>
                     {timeline[event].description}
                   </Media>
