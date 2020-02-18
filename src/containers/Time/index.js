@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import './index.css'
 import { Media } from 'reactstrap'
+import { dateNumberToString } from '../../utilities/dateNumberToString.js'
 
 class Time extends Component {
   render() {
@@ -8,20 +9,11 @@ class Time extends Component {
     const events = Object.keys(timeline)
     return (
       <div>
-      <br />
+        <br />
         {
           events.map((event, i) => {
-            var dateNumber = timeline[event].date
-            var date
-            if (dateNumber < 0) {
-              date = Math.abs(timeline[event].date)
-              date = date.toString()
-              date = date + " " + this.props.lessThanYearZero
-            } else if (dateNumber >= 0) {
-              date = Math.abs(timeline[event].date)
-              date = date.toString()
-              date = date + " " + this.props.greaterThanYearZero
-            }
+            var date = dateNumberToString(timeline[event].date, this.props.lessThanYearZero, this.props.greaterThanYearZero)
+
             return (
               <center key={i}>
                 <Media>
