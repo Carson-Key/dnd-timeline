@@ -759,6 +759,10 @@ export const timeline = {
   	date: "777 AK",
   	description: "Creamy Ice Cone Passes of Old Age"
   },
+  AK778: {
+  	date: "778 AK",
+  	description: "Vec Passes of Old Age"
+  },
   "AK782-1": {
   	date: "782 AK",
   	description: "Nokede Civil War Ends"
@@ -790,10 +794,6 @@ export const timeline = {
   AK796: {
   	date: "796 AK",
   	description: "Newport Richie Passes of Old Age"
-  },
-  AK798: {
-  	date: "798 AK",
-  	description: "Vec Passes of Old Age"
   },
   AK801: {
   	date: "801 AK",
@@ -849,7 +849,7 @@ export const timeline = {
   },
   AK818: {
   	date: "818 AK",
-  	description: "The GAC Vault if Created by Cade, Shade, Osbellum, and Osmetellum to Safe Guard Powerfull Artifacts"
+  	description: "The GAC Vault is Created by Cade, Shade, Osbellum, and Osmetellum to Safe Guard Powerfull Artifacts"
   },
   "AK821-1": {
   	date: "821 AK",
