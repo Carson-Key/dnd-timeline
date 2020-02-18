@@ -7,7 +7,6 @@ class App extends Component {
   render() {
     return (
       <div>
-        <br />
         <Time timeline={timeline} />
       </div>
     )
