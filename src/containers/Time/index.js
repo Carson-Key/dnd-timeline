@@ -5,7 +5,9 @@ import { Media } from 'reactstrap'
 class Time extends Component {
   render() {
     const { timeline } = this.props
-    const events = Object.keys(timeline)
+    const events = Object.keys(timeline).sort((a, b) => {
+      return +a - +b
+    })
     return (
       <div>
       <br />
