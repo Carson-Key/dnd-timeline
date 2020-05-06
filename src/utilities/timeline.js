@@ -299,6 +299,14 @@ export const timeline = {
   	date: 691,
   	description: "Cade Goodbarrel Soils Himself During his Proposal to Vernomica"
   },
+  "696": {
+    date: 696,
+    description: "Mar is Born"
+  },
+  "702": {
+    date: 702,
+    description: "Tabz is Born"
+  },
   "708.1": {
   	date: 708,
   	description: "Shade Goodbarrel Leaves for Emralia"
@@ -347,9 +355,93 @@ export const timeline = {
   	date: 723,
   	description: "Edge Lord's Clan is Slaughtered by Orcus"
   },
+  "726.1": {
+    date: 726,
+    description: "A rag tag group of adventures get a contract to go to Barovia"
+  },
+  "726.2": {
+    date: 726,
+    description: "The group of adventures enter Barovia, and are now unable to leave"
+  },
+  "726.3": {
+    date: 726,
+    description: "Akar is killed by a vampire spawn"
+  },
+  "726.4": {
+    date: 726,
+    description: "Dimitri Von Zarovich joins the adventures hopeing they can stop is father"
+  },
+  "726.5": {
+    date: 726,
+    description: "The adventures arrive in Krezk"
+  },
+  "726.6": {
+    date: 726,
+    description: "Ireena is sucked into the pond at Krezk, and Strahd desactrates the holy water"
+  },
+  "726.7": {
+    date: 726,
+    description: "The adventures arrive at the Amber Temple"
+  },
+  "726.8": {
+    date: 726,
+    description: "Dimirtri becomes his father, to destroy his father"
+  },
+  "726.9": {
+    date: 726,
+    description: "Dimirti is seemingly killed by the adventures"
+  },
+  "726.10": {
+    date: 726,
+    description: "F.I.S.H banishes himself and the powerful being that grants those unworthy the power of vampires"
+  },
+  "726.11": {
+    date: 726,
+    description: "Two new adventures join the group, one Dimirti in disgue"
+  },
+  "726.12": {
+    date: 726,
+    description: "The adventures arrive at Castle Raven Loft"
+  },
+  "726.13": {
+    date: 726,
+    description: "Dimitri Reveals himself turning one of the adventures, Fowl, into a Vampire spawn"
+  },
+  "726.14": {
+    date: 726,
+    description: "Dimitri banishes Fowl sending him through time"
+  },
+  "726.15": {
+    date: 726,
+    description: "Dimitri Reveals himself turning one of the adventures, Fowl, into a Vampire spawn"
+  },
+  "726.16": {
+    date: 726,
+    description: "Dimitri agrees to put his previous plans aside in order to kill his father"
+  },
+  "726.17": {
+    date: 726,
+    description: "Mar's cousin finds his way to the group of adventures"
+  },
+  "726.18": {
+    date: 726,
+    description: "Dimitri vanishes"
+  },
+  "726.19": {
+    date: 726,
+    description: "Strahd is defeated"
+  },
+  "726.20": {
+    date: 726,
+    description: "Two adventures, Viola and Mar's cousin, and in doing so are sent through time"
+  },
+  "726.21": {
+    date: 726,
+    description: "Those of the group that stay, including Mar, Indominous, and Dimitri, are sent Ten years in the future. Right after Edge Lord and the Pussy Cats defeats Strahd"
+  },
   "730.1": {
   	date: 730,
-  	description: "Shade Fails to Steal form a Gothoian Diplomate"
+  	description: "Shade Fails to Steal from a Gothoian Diplomate"
   },
   "730.2": {
   	date: 730,
@@ -499,31 +591,31 @@ export const timeline = {
   	date: 735,
   	description: "Vec Finds a way out of Barovia"
   },
-  "735.20": {
+  "735.21": {
   	date: 735,
   	description: "Vec Meets up with Saint Bobe and Squats and form the Changling Heisters"
   },
-  "735.21": {
+  "735.22": {
   	date: 735,
   	description: "The Changling Heisters take over the Heian Theives Guild"
   },
-  "735.22": {
+  "735.23": {
   	date: 735,
   	description: "The Changling Heisters Steal the Heian Royal Treasury and Kill the King"
   },
-  "735.23": {
+  "735.24": {
   	date: 735,
   	description: "The Changling Heisters Leave to Waneh"
   },
-  "735.24": {
+  "735.25": {
   	date: 735,
   	description: "The Changling Heisters Steal the Waneh Royal Airship"
   },
-  "735.25": {
+  "735.26": {
   	date: 735,
   	description: "Phira Joins The Changling Heisters"
   },
-  "735.26": {
+  "735.27": {
   	date: 735,
   	description: "The Changling Heisters Leave Weneh"
   },
@@ -536,26 +628,34 @@ export const timeline = {
   	description: "Edge Lord and the Pussy Cats Defeat Strahd"
   },
   "736.3": {
-  	date: 736,
-  	description: "Krag Leaves Edge Lord and the Pussy Cats"
+    date: 736,
+    description: "Mar leaves Barovia to form a keeper of the Feathers in a distant land"
   },
   "736.4": {
-  	date: 736,
-  	description: "Edge Lord and the Pussy Cats Leave Barovia"
+    date: 736,
+    description: "Indominous and Krag take control of Barovia affairs"
   },
   "736.5": {
   	date: 736,
-  	description: "Edge Lord and the Pussy Cats Arrive in Bordon"
+  	description: "Krag Leaves Edge Lord and the Pussy Cats"
   },
   "736.6": {
   	date: 736,
-  	description: "Edge Lord and the Pussy Cats Merge with the Changling Heisters"
+  	description: "Edge Lord and the Pussy Cats Leave Barovia"
   },
   "736.7": {
   	date: 736,
-  	description: "Creamy Ice Cone Leaves Edge Lord and the Pussy Cats"
+  	description: "Edge Lord and the Pussy Cats Arrive in Bordon"
   },
   "736.8": {
+  	date: 736,
+  	description: "Edge Lord and the Pussy Cats Merge with the Changling Heisters"
+  },
+  "736.9": {
+  	date: 736,
+  	description: "Creamy Ice Cone Leaves Edge Lord and the Pussy Cats"
+  },
+  "736.1.1": {
   	date: 736,
   	description: "Edge Lord and the Pussy Cats Go to Waterdeep"
   },
@@ -573,11 +673,31 @@ export const timeline = {
   },
   "738.2": {
   	date: 738,
-  	description: "Edge Lord and the Pussy Cats Help Krag Reform the Barovian State"
+  	description: "Edge Lord and the Pussy Cats Help Krag and Indominous reform the Barovian State"
   },
-  "740": {
+  "740.1": {
   	date: 740,
   	description: "The Barovian Council of Burgomasters is Formed"
+  },
+  "740.2": {
+    date: 740,
+    description: "The Barovian royal family is reformed with Indominous Von Zarovich at it's head"
+  },
+  "743": {
+    date: 743,
+    description: "Mar starts a keeper of feathers sect in Gothoia"
+  },
+  "745": {
+    date: 745,
+    description: "Mar meets the Raven Queen"
+  },
+  "747.1": {
+    date: 747,
+    description: "Olorin is born"
+  },
+  "747.2": {
+    date: 747,
+    description: "Mar is gifted immortality by the Raven Queen"
   },
   "748": {
   	date: 748,
@@ -620,16 +740,16 @@ export const timeline = {
   	description: "Edge Lord and The Pussy Cats Found The Atherion Alliance"
   },
   "753.4": {
+    date: 753,
+    description: "Mar and his keeper of the feathers start to help the Atherion Alliance"
+  },
+  "753.5": {
   	date: 753,
   	description: "Barovia, Dende, Gemia, The Kindom of Dwarves, Revolutionary Gothoia, and Revolutionary Hende Join the Atherion Alliance"
   },
   "754": {
   	date: 754,
   	description: "The Gothoia Invasion of Gemia starts"
-  },
-  "755": {
-  	date: 755,
-  	description: "Hende Joins the Invasion of Gemia"
   },
   "756.1": {
   	date: 756,
@@ -693,7 +813,7 @@ export const timeline = {
   },
   "763.1": {
   	date: 763,
-  	description: "The Endless War Ends"
+  	description: "The Endless War offically ends"
   },
   "763.2": {
   	date: 763,
@@ -705,7 +825,7 @@ export const timeline = {
   },
   "764.1": {
   	date: 764,
-  	description: "Squats and Phira are Crowned as the First King and Queen of Atherion"
+  	description: "Squats and Phira are Crowned as the First Emperor and Emperess of Atherion"
   },
   "764.2": {
   	date: 764,
@@ -719,9 +839,13 @@ export const timeline = {
   	date: 771,
   	description: "Shade Goodbarrel and Vec found the Atherion Theives Guild"
   },
+  "772": {
+    date: 772,
+    description: "Ghero is Born"
+  },
   "773": {
   	date: 773,
-  	description: "Krag Passes Due to Poor Health From a Life of Battle"
+  	description: "Krag Passes Due to Poor Health From a Life of Battle (But Cade thinks Indominous was at fault)"
   },
   "774.1": {
   	date: 774,
@@ -777,7 +901,7 @@ export const timeline = {
   },
   "795.2": {
   	date: 795,
-  	description: "Ghero is Crowned the Second King of Atherion"
+  	description: "Ghero is Crowned the Second Emperor of Atherion"
   },
   "796": {
   	date: 796,
@@ -839,6 +963,10 @@ export const timeline = {
   	date: 818,
   	description: "The GAC Vault is Created by Cade, Shade, Osbellum, and Osmetellum to Safe Guard Powerfull Artifacts"
   },
+  "820": {
+    date: 820,
+    description: "Cade starts a decent into insanity"
+  },
   "821.1": {
   	date: 821,
   	description: "Edge Lord and the Pussy Cats is Secretly Reformed to Help Protect The GAC Vault and All Life"
@@ -850,6 +978,10 @@ export const timeline = {
   "822": {
   	date: 822,
   	description: "Phira and Tabz Join The Reformed Edge Lord and The Pussy Cats"
+  },
+  "824": {
+    date: 822,
+    description: "Mar joins The Reformed Edge Lord and The Pussy Cats bringing his army of informants to the cause"
   },
   "831": {
   	date: 831,
@@ -868,7 +1000,119 @@ export const timeline = {
   	description: "A Powerfull Articfact is Stollen from the GAC Vualt"
   },
   "878.2": {
+    date: 878,
+    description: "Cade Goodbarrel is seemingly killed by Zolbir The Destroyer"
+  },
+  "878.3": {
   	date: 878,
   	description: "A New Class of Adventures Arrive at GAC Adventuring School"
-  }
+  },
+  "878.4": {
+    date: 878,
+    description: "A group of Students at GAC are tasked by Phira to find out what happend to Cade as a test"
+  },
+  "878.5": {
+    date: 878,
+    description: "Cade is found to be alive and kinda well in a hidden room of vats filled with clones"
+  },
+  "878.5": {
+    date: 878,
+    description: "The Adventures of GAC are formed"
+  },
+  "879.1": {
+    date: 879,
+    description: "Cade sends the Adventures of GAC to find the Destroyer of Civilization"
+  },
+  "879.2": {
+    date: 879,
+    description: "The Adventures of GAC reach the gates of Barovia, now trapped there like many before them"
+  },
+  "879.3": {
+    date: 879,
+    description: "The Adventures of GAC find that Aron has become a lich"
+  },
+  "879.4": {
+    date: 879,
+    description: "The Adventures of GAC get the help of the king of Barovia, Indominous. Despite warnings from Cade"
+  },
+  "879.5": {
+    date: 879,
+    description: "With the help of Indominous Aron is cured from lichdom"
+  },
+  "879.6": {
+    date: 879,
+    description: "For his help Indominous asks for the help of The Adventures of GAC"
+  },
+  "879.7": {
+    date: 879,
+    description: "The adventures of GAC accept and go out to find Spagetti Spades who has taken domain over Barovia as Strahd once did"
+  },
+  "879.8": {
+    date: 879,
+    description: "The adventures of GAC find Spagetti Spades trying to revive Strahd so he can get his revenge on Cade Goodbarrel"
+  },
+  "879.9": {
+    date: 879,
+    description: "The adventures of GAC trick Spagetti Spades and bring him to Indominous as requested, so that Spagetti can be tried in front of the people for his crimes"
+  },
+  "879.1.0": {
+    date: 879,
+    description: "Spagetti is sentenced to death"
+  },
+  "879.1.1": {
+    date: 879,
+    description: "Before Spagetti is sentenced to death, Indominous tricks Spagetti into making him a Vampire lord"
+  },
+  "879.1.2": {
+    date: 879,
+    description: "With the blessing of the King The Adventures of GAC go to Midbigdonia where they have been told the artifact they seek is located"
+  },
+  "879.1.3": {
+    date: 879,
+    description: "The Adventures of GAC arrive in Midbigdonia"
+  },
+  "879.1.4": {
+    date: 879,
+    description: "The Adventures of GAC search for the artifact"
+  },
+  "880.1": {
+    date: 880,
+    description: "The Adventures of GAC after a year finally find the Destroyer of Civilization"
+  },
+  "880.2": {
+    date: 880,
+    description: "The Adventures of GAC defeat Zolbir and recover the artifact before it could be used to kill millions"
+  },
+  "880.3": {
+    date: 880,
+    description: "The Destroyer of Civilization is return to the GAC Vault"
+  },
+  "886.1": {
+    date: 886,
+    description: "Fowl is sent through time and kills himself because he has become something he despises, a Vampire"
+  },
+  "886.2": {
+    date: 886,
+    description: "Viola and Mar's cousin find their way out of Barovia"
+  },
+  "886.3": {
+    date: 886,
+    description: "Viola and Mar's cousin form a cultish holy order in order to kill all vampires"
+  },
+  "886.4": {
+    date: 886,
+    description: "The Undeath Crusaders are formed"
+  },
+  "886.5": {
+    date: 886,
+    description: "Viola swears to find Dimitri and kill him"
+  },
+  "886.6": {
+    date: 886,
+    description: "Indominous helps fund Viola's crusade against Dimirti, hiding his own vampiric identity"
+  },
+  "892": {
+    date: 892,
+    description: "A new group accepts a mysterious contract to take back Bridge World"
+  },
 }
