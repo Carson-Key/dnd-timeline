@@ -275,7 +275,7 @@ export const timeline = {
     	description: "War for the New World ends"
     },
   ],
-  "144-0": [
+  "144": [
     {
       date: 144,
       description: "The Atheria Civil War Ends"
@@ -916,7 +916,7 @@ export const timeline = {
     	description: "The Gothoia Invasion of Gemia starts"
     },
   ],
-  "756-0": [
+  "756": [
     {
     	date: 756,
     	description: "The Invasion of Gemia Ends with Dende Support"
@@ -936,7 +936,7 @@ export const timeline = {
       description: "Gothoia and Hende Form The Endless Rival Alliance"
     },
   ],
-  "759-0": [
+  "759": [
     {
     	date: 759,
     	description: "The Endless Rival Alliance Push Back Atherion Forces and retake the Gothoian Captial"
@@ -1142,7 +1142,7 @@ export const timeline = {
     	description: "Osmetellum Reforges Death's Blade"
     },
   ],
-  "807-0": [
+  "807": [
     {
     	date: 807,
     	description: "Cade, Shade, and Osbellum Fight Against Tempus in The Battle of Warriors"
@@ -1158,7 +1158,7 @@ export const timeline = {
     	description: "Osbellum, Cade, and Shade Do a Final Push Through Warrior's Rest"
     },
   ],
-  "813-0": [
+  "813": [
     {
     	date: 813,
     	description: "Osbellum Challenges his Father to a Fight"
