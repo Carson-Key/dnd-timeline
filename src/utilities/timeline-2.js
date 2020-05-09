@@ -807,7 +807,6 @@ export const timeline = {
     	description: "Edge Lord and the Pussy Cats Formally Create a Guild of the same Name"
     },
   ],
-  "737-1":
   "738": [
     {
     	date: 738,
