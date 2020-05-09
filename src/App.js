@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import './App.css'
 import Time from './containers/Time'
-import { timeline } from './utilities/timeline.js'
+import { timeline } from './utilities/timeline-2.js'
 
 class App extends Component {
   render() {
