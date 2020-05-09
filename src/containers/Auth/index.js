@@ -7,7 +7,11 @@ class AuthTime extends Component {
 
     return (
       <div>
-        <Time timeline={timeline} lessThanYearZero={lessThanYearZero} greaterThanYearZero={greaterThanYearZero} />
+        <Time
+          timeline={timeline}
+          lessThanYearZero={lessThanYearZero}
+          greaterThanYearZero={greaterThanYearZero}
+        />
       </div>
     )
   }
