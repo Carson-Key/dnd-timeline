@@ -651,7 +651,7 @@ export const timeline = {
     },
     {
       date: 726,
-      description: "Mar's cousin finds his way to the group of adventures",
+      description: "Luvrunint finds his way to the group of adventures",
       players: {}
     },
     {
@@ -666,7 +666,7 @@ export const timeline = {
     },
     {
       date: 726,
-      description: "Two adventures, Viola and Mar's cousin, leave Barocia and in doing so are sent through time",
+      description: "Two adventures, Viola and Luvrunint, leave Barocia and in doing so are sent through time",
       players: {}
     },
     {
@@ -1557,22 +1557,30 @@ export const timeline = {
     {
       date: 879,
       description: "The adventures of GAC trick Spagetti Spades and bring him to Indominous as requested, so that Spagetti can be tried in front of the people for his crimes",
-      players: {}
+      players: {
+        "indominous": true,
+      }
     },
     {
       date: 879,
       description: "Spagetti is sentenced to death",
-      players: {}
+      players: {
+        "indominous": true,
+      }
     },
     {
       date: 879,
       description: "Before Spagetti is sentenced to death, Indominous tricks Spagetti into making him a Vampire lord",
-      players: {}
+      players: {
+        "indominous": true,
+      }
     },
     {
       date: 879,
-      description: "With the blessing of the King The Adventures of GAC go to Midbigdonia where they have been told the artifact they seek is located",
-      players: {}
+      description: "With the blessing of the King, The Adventures of GAC go to Midbigdonia where they have been told the artifact they seek is located",
+      players: {
+        "indominous": true,
+      }
     },
     {
       date: 879,
@@ -1616,32 +1624,44 @@ export const timeline = {
     {
       date: 886,
       description: "Fowl is sent through time and kills himself because he has become something he despises, a Vampire",
-      players: {}
+      players: {
+        "indominous": true,
+      }
     },
     {
       date: 886,
-      description: "Viola and Mar's cousin find their way out of Barovia",
-      players: {}
+      description: "Viola and Luvrunint find their way out of Barovia",
+      players: {
+        "indominous": true,
+      }
     },
     {
       date: 886,
-      description: "Viola and Mar's cousin form a cultish holy order in order to kill all vampires",
-      players: {}
+      description: "Viola and Luvrunint form a cultish holy order in order to kill all vampires",
+      players: {
+        "indominous": true,
+      }
     },
     {
       date: 886,
       description: "The Undeath Crusaders are formed",
-      players: {}
+      players: {
+        "indominous": true,
+      }
     },
     {
       date: 886,
       description: "Viola swears to find Dimitri and kill him",
-      players: {}
+      players: {
+        "indominous": true,
+      }
     },
     {
       date: 886,
       description: "Indominous helps fund Viola's crusade against Dimirti, hiding his own vampiric identity",
-      players: {}
+      players: {
+        "indominous": true,
+      }
     },
   ],
   "887": [
@@ -1680,7 +1700,9 @@ export const timeline = {
     {
       date: 888,
       description: "Dalgur's marrage is found out and starts a small skirmish",
-      players: {}
+      players: {
+        "indominous": true,
+      }
     },
     {
       date: 888,
@@ -1690,14 +1712,18 @@ export const timeline = {
     {
       date: 888,
       description: "With the help of Cade the rivialry ends, and the two families are reunited under a common goal",
-      players: {}
+      players: {
+        "indominous": true,
+      }
     },
   ],
   "889": [
     {
       date: 889,
       description: "Dalgur found Dalgur's General Goods with the goal of making adventuring affordable",
-      players: {}
+      players: {
+        "indominous": true,
+      }
     },
     {
       date: 889,
@@ -1736,14 +1762,18 @@ export const timeline = {
     {
       date: 891,
       description: "Despite much debate, Cade decides to keep the ruse of his insanity as to not gain too much notice while he starts research on a project of an exterme dirness",
-      players: {}
+      players: {
+
+      }
     },
   ],
   "892": [
     {
       date: 892,
       description: "Cade starts to uncover the prospect of secrets that are hidden behind the War for the New World",
-      players: {}
+      players: {
+        "cade": true,
+      }
     },
   ],
   "898": [
@@ -1756,6 +1786,7 @@ export const timeline = {
         "ator": true,
         "storn": true,
         "olorin": true,
+        "indominous": true,
       }
     },
   ],

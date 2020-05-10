@@ -1,10 +1,13 @@
-import { validPlayers } from './validPlayers.js'
+import { validPlayers, playerVariations } from './validPlayers.js'
 
 export function filterTimeLine(playerName, timeline) {
+  if (playerVariations[playerName]) {
+    playerName = playerVariations[playerName]
+  }
   if (playerName.toLowerCase() === "dm") {
     return timeline
   } else if (validPlayers[playerName.toLowerCase()]) {
-    return parseTimeline(playerName, timeline)
+    return parseTimeline(playerName.toLowerCase(), timeline)
   } else {
     return "error"
   }
