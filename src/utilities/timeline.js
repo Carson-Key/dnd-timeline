@@ -1750,7 +1750,13 @@ export const timeline = {
     {
       date: 898,
       description: "A new group accepts a mysterious contract to take back Bridge World",
-      players: {"cade goodbarrel": true}
+      players: {
+        "cade": true,
+        "naomi": true,
+        "ator": true,
+        "storn": true,
+        "olorin": true,
+      }
     },
   ],
 }
