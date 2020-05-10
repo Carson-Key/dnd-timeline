@@ -8,41 +8,65 @@ import {
   Container,
   Row,
   Col,
-  Jumbotron
+  Jumbotron,
+  Alert
 } from 'reactstrap';
 import Time from '../Time'
+import { filterTimeLine } from '../../utilities/filterTimeLine.js'
 
 class AuthTime extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      playerName: null,
-      playerNameInput: ""
+      playerName: "",
+      moveOn: "",
+      error: ""
     }
 
+    this.newTimeLine = {}
+
     this.handlePlayerNameChange = this.handlePlayerNameChange.bind(this);
-    this.setPlayerName = this.setPlayerName.bind(this);
+    this.setPlayerTimeline = this.setPlayerTimeline.bind(this);
   }
 
-  setPlayerName() {
-    this.setState({
-      playerName: this.state.playerNameInput
-    });
+  setPlayerTimeline() {
+    if (this.state.playerName !== "") {
+      this.newTimeLine = filterTimeLine(this.state.playerName, this.props.timeline)
+      if (this.newTimeLine == "error") {
+        this.setState({
+          error: "error"
+        });
+      } else {
+        this.setState({
+          moveOn: "True"
+        });
+      }
+    }
   }
 
   handlePlayerNameChange(event) {
     this.setState({
-      playerNameInput: event.target.value
+      playerName: event.target.value
     });
   }
 
-  render() {
-    const { timeline, lessThanYearZero, greaterThanYearZero } = this.props
-    const newTimeLine = {}
+  displayError() {
+    if (this.state.error != "") {
+      return (
+        <Alert color="danger">
+          Please Enter a valid player name
+        </Alert>
+      )
+    } else {
+      return
+    }
+  }
 
-    if (this.state.playerName == null) {
+  render() {
+    if (this.state.moveOn === "") {
       return (
         <Container>
+          {this.displayError()}
           <br />
           <Row>
             <Col>
@@ -59,11 +83,11 @@ class AuthTime extends Component {
               <InputGroup>
                 <Input
                   placeholder="Cade Goodbarrel"
-                  value={this.state.playerNameInput}
+                  value={this.state.playerName}
                   onChange={this.handlePlayerNameChange}
                 />
                 <InputGroupAddon addonType="append">
-                  <Button onClick={this.setPlayerName}>Enter</Button>
+                  <Button onClick={this.setPlayerTimeline}>Enter</Button>
                 </InputGroupAddon>
               </InputGroup>
             </Col>
@@ -74,9 +98,9 @@ class AuthTime extends Component {
       return (
         <div>
           <Time
-            timeline={newTimeLine}
-            lessThanYearZero={lessThanYearZero}
-            greaterThanYearZero={greaterThanYearZero}
+            timeline={this.newTimeLine}
+            lessThanYearZero={this.props.lessThanYearZero}
+            greaterThanYearZero={this.props.greaterThanYearZero}
           />
         </div>
       )
