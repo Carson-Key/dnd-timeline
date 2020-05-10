@@ -12,7 +12,7 @@ export const validPlayers = {
   "shade": true,
   "osbellum": true,
   "osmetallum": true,
-  "luvrunint"; true
+  "luvrunint": true
 }
 
 export const playerVariations = {
