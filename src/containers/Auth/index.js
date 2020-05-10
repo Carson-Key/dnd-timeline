@@ -32,7 +32,7 @@ class AuthTime extends Component {
   setPlayerTimeline() {
     if (this.state.playerName !== "") {
       this.newTimeLine = filterTimeLine(this.state.playerName, this.props.timeline)
-      if (this.newTimeLine == "error") {
+      if (this.newTimeLine === "error") {
         this.setState({
           error: "error"
         });
@@ -51,7 +51,7 @@ class AuthTime extends Component {
   }
 
   displayError() {
-    if (this.state.error != "") {
+    if (this.state.error !== "") {
       return (
         <Alert color="danger">
           Please Enter a valid player name
