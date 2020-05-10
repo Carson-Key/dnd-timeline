@@ -1,6 +1,4 @@
-const validPlayers = {
-  "cade goodbarrel": true
-}
+import { validPlayers } from './validPlayers.js'
 
 export function filterTimeLine(playerName, timeline) {
   if (playerName.toLowerCase() === "dm") {

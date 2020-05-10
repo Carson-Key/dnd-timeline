@@ -1236,7 +1236,7 @@ export const timeline = {
     {
       date: 772,
       description: "Ghero is Born",
-      players: {}
+      players: {"ikoll": true}
     },
   ],
   "773": [
@@ -1331,7 +1331,7 @@ export const timeline = {
     {
     	date: 795,
     	description: "Ghero is Crowned the Second Emperor of Atherion",
-      players: {}
+      players: {"ikoll": true}
     },
   ],
   "796": [
