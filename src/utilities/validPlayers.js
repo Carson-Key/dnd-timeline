@@ -1,18 +1,19 @@
 export const validPlayers = {
-  "cade": true,
-  "naomi": true,
-  "ator": true,
-  "storn": true,
-  "olorin": true,
-  "crainer": true,
-  "ikoll": true,
-  "mar": true,
-  "indominous": true,
+  "cade": true, // Complete
+  "naomi": true, // Complete
+  "ator": true, // Complete
+  "storn": true, // Complete
+  "olorin": true, // Complete
+  "crainer": true, // Complete
+  "ikoll": true, // Complete
+  "mar": true, // Complete
+  "indominous": true, // Complete
   "phira": true,
   "shade": true,
   "osbellum": true,
   "osmetallum": true,
-  "luvrunint": true
+  "luvrunint": true, // Complete
+  "fowl": true,
 }
 
 export const playerVariations = {
@@ -43,10 +44,10 @@ export const playerVariations = {
   "nameless": "indominous",
   "shade goodbarrel": "shade",
   "shadegoodbarrel": "shade",
-  "phira": "phira weneh",
-  "phira": "phira squatamus",
-  "phira": "phiraweneh",
-  "phira": "phirasquatamus",
+  "phira weneh": "phira",
+  "phira squatamus": "phira",
+  "phiraweneh": "phira",
+  "phirasquatamus": "phira",
   "mar corvus": "mar",
   "marcorvus": "mar",
   "olorin corvus": "olorin",
