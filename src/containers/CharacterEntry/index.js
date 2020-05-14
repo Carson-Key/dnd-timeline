@@ -56,6 +56,7 @@ class CharacterEntry extends Component {
                 placeholder="Cade Goodbarrel"
                 value={this.state.playerName}
                 onChange={this.props.onChange}
+                onKeyPress={this.props.onKeyPress}
               />
               <InputGroupAddon addonType="append">
                 <Button onClick={this.props.enterFunc}>Enter</Button>

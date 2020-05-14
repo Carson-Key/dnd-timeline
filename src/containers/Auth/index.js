@@ -20,6 +20,7 @@ class AuthTime extends Component {
     this.newTimeLine = {}
 
     this.handlePlayerNameChange = this.handlePlayerNameChange.bind(this);
+    this.handlePlayerNameKey = this.handlePlayerNameKey.bind(this);
     this.setPlayerTimeline = this.setPlayerTimeline.bind(this);
     this.exitTimeLine = this.exitTimeLine.bind(this);
   }
@@ -44,6 +45,13 @@ class AuthTime extends Component {
       playerName: event.target.value
     });
   }
+  handlePlayerNameKey(event) {
+    if (event.key === "Enter") {
+      this.setState({
+        playerName: event.target.value
+      }, this.setPlayerTimeline());
+    }
+  }
 
   exitTimeLine() {
     this.setState({
@@ -58,6 +66,7 @@ class AuthTime extends Component {
           <CharacterEntry
             onChange={this.handlePlayerNameChange}
             enterFunc={this.setPlayerTimeline}
+            onKeyPress={this.handlePlayerNameKey}
           />
         </div>
       )
