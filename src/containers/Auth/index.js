@@ -1,19 +1,12 @@
 import React, { Component } from 'react'
 import './index.css'
 import {
-  InputGroup,
-  InputGroupAddon,
-  Input,
-  Button,
-  Container,
-  Row,
-  Col,
-  Jumbotron,
-  Alert
+  Button
 } from 'reactstrap';
 import Time from '../Time'
 import CharacterEntry from '../CharacterEntry'
 import { filterTimeLine } from '../../utilities/filterTimeLine.js'
+import { capitalizeFirstLetter } from '../../utilities/capitalizeFirstLetter.js'
 
 class AuthTime extends Component {
   constructor(props) {
@@ -28,6 +21,7 @@ class AuthTime extends Component {
 
     this.handlePlayerNameChange = this.handlePlayerNameChange.bind(this);
     this.setPlayerTimeline = this.setPlayerTimeline.bind(this);
+    this.exitTimeLine = this.exitTimeLine.bind(this);
   }
 
   setPlayerTimeline() {
@@ -51,16 +45,10 @@ class AuthTime extends Component {
     });
   }
 
-  displayError() {
-    if (this.state.error !== "") {
-      return (
-        <Alert color="danger">
-          Please Enter a valid player name
-        </Alert>
-      )
-    } else {
-      return
-    }
+  exitTimeLine() {
+    this.setState({
+      moveOn: ""
+    });
   }
 
   render() {
@@ -76,6 +64,13 @@ class AuthTime extends Component {
     } else {
       return (
         <div>
+          <Button
+            className="exitButton"
+            color="danger"
+            onClick={this.exitTimeLine}
+          >
+            exit {capitalizeFirstLetter(this.state.playerName)}
+          </Button>
           <Time
             timeline={this.newTimeLine}
             lessThanYearZero={this.props.lessThanYearZero}
