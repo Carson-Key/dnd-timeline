@@ -7,6 +7,7 @@ import {
 } from 'reactstrap';
 import Time from '../Time'
 import CharacterEntry from '../CharacterEntry'
+import TimelineDecorator from './TimelineDecorator'
 import { filterTimeLine } from '../../utilities/filterTimeLine.js'
 import { capitalizeFirstLetter } from '../../utilities/capitalizeFirstLetter.js'
 
@@ -64,35 +65,21 @@ class AuthTime extends Component {
   render() {
     if (this.state.moveOn === "") {
       return (
-        <div>
-          <CharacterEntry
-            onChange={this.handlePlayerNameChange}
-            enterFunc={this.setPlayerTimeline}
-            onKeyPress={this.handlePlayerNameKey}
-          />
-        </div>
+        <CharacterEntry
+          onChange={this.handlePlayerNameChange}
+          enterFunc={this.setPlayerTimeline}
+          onKeyPress={this.handlePlayerNameKey}
+        />
       )
     } else {
       return (
-        <div>
-          <Button
-            className="exitButton"
-            color="danger"
-            onClick={this.exitTimeLine}
-          >
-            exit {capitalizeFirstLetter(this.state.playerName)}
-          </Button>
-          <Jumbotron fluid>
-            <Container fluid>
-              <center><h1 className="display-3">{capitalizeFirstLetter(this.state.playerName)}'s Timeline</h1></center>
-            </Container>
-          </Jumbotron>
-          <Time
-            timeline={this.newTimeLine}
-            lessThanYearZero={this.props.lessThanYearZero}
-            greaterThanYearZero={this.props.greaterThanYearZero}
-          />
-        </div>
+        <TimelineDecorator
+          exitTimeLine={this.exitTimeLine}
+          playerName={this.state.playerName}
+          newTimeLine={this.newTimeLine}
+          lessThanYearZero={this.props.lessThanYearZero}
+          greaterThanYearZero={this.props.greaterThanYearZero}
+        />
       )
     }
   }

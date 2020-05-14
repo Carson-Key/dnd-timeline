@@ -11,8 +11,6 @@ import {
   Jumbotron,
   Alert
 } from 'reactstrap';
-import Time from '../Time'
-import { filterTimeLine } from '../../utilities/filterTimeLine.js'
 
 class CharacterEntry extends Component {
   constructor(props) {
