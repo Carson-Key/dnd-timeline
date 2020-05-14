@@ -12,6 +12,7 @@ import {
   Alert
 } from 'reactstrap';
 import Time from '../Time'
+import CharacterEntry from '../CharacterEntry'
 import { filterTimeLine } from '../../utilities/filterTimeLine.js'
 
 class AuthTime extends Component {
@@ -65,34 +66,12 @@ class AuthTime extends Component {
   render() {
     if (this.state.moveOn === "") {
       return (
-        <Container>
-          {this.displayError()}
-          <br />
-          <Row>
-            <Col>
-              <Jumbotron fluid>
-                <Container fluid>
-                  <center><h1 className="display-3">Timeline</h1></center>
-                </Container>
-              </Jumbotron>
-            </Col>
-          </Row>
-          <Row className="centered">
-            <Col>
-              <p>What is Your Player's Name?</p>
-              <InputGroup>
-                <Input
-                  placeholder="Cade Goodbarrel"
-                  value={this.state.playerName}
-                  onChange={this.handlePlayerNameChange}
-                />
-                <InputGroupAddon addonType="append">
-                  <Button onClick={this.setPlayerTimeline}>Enter</Button>
-                </InputGroupAddon>
-              </InputGroup>
-            </Col>
-          </Row>
-        </Container>
+        <div>
+          <CharacterEntry
+            onChange={this.handlePlayerNameChange}
+            enterFunc={this.setPlayerTimeline}
+          />
+        </div>
       )
     } else {
       return (
