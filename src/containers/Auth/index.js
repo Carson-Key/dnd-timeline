@@ -1,7 +1,9 @@
 import React, { Component } from 'react'
 import './index.css'
 import {
-  Button
+  Button,
+  Container,
+  Jumbotron
 } from 'reactstrap';
 import Time from '../Time'
 import CharacterEntry from '../CharacterEntry'
@@ -80,6 +82,11 @@ class AuthTime extends Component {
           >
             exit {capitalizeFirstLetter(this.state.playerName)}
           </Button>
+          <Jumbotron fluid>
+            <Container fluid>
+              <center><h1 className="display-3">{capitalizeFirstLetter(this.state.playerName)}'s Timeline</h1></center>
+            </Container>
+          </Jumbotron>
           <Time
             timeline={this.newTimeLine}
             lessThanYearZero={this.props.lessThanYearZero}
