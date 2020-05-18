@@ -54,4 +54,5 @@ export const playerVariations = {
   "olorincorvus": "olorin",
   "stron helderian": "storn",
   "stronhelderian": "storn",
+  "dova": "ikoll",
 }
