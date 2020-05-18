@@ -31,6 +31,12 @@ class AuthTime extends Component {
       if (this.newTimeLine === "error") {
         this.setState({
           error: "error"
+        }, () => {
+          setTimeout(() => {
+            this.setState({
+              error: ""
+            })
+          }, 5000)
         });
       } else {
         this.setState({
