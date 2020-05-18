@@ -34,7 +34,8 @@ class AuthTime extends Component {
         });
       } else {
         this.setState({
-          moveOn: "True"
+          moveOn: "True",
+          error: ""
         });
       }
     }
