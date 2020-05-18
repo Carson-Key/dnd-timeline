@@ -8,34 +8,13 @@ import {
   Container,
   Row,
   Col,
-  Jumbotron,
-  Alert
+  Jumbotron
 } from 'reactstrap';
 
 class CharacterEntry extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      error: ""
-    }
-  }
-
-  displayError() {
-    if (this.state.error !== "") {
-      return (
-        <Alert color="danger">
-          Please Enter a valid player name
-        </Alert>
-      )
-    } else {
-      return
-    }
-  }
-
   render() {
     return (
       <Container>
-        {this.displayError()}
         <br />
         <Row>
           <Col>
@@ -52,7 +31,7 @@ class CharacterEntry extends Component {
             <InputGroup>
               <Input
                 placeholder="Cade Goodbarrel"
-                value={this.state.playerName}
+                value={this.props.playerName}
                 onChange={this.props.onChange}
                 onKeyPress={this.props.onKeyPress}
               />

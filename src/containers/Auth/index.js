@@ -1,15 +1,11 @@
 import React, { Component } from 'react'
 import './index.css'
 import {
-  Button,
-  Container,
-  Jumbotron
+  Alert
 } from 'reactstrap';
-import Time from '../Time'
 import CharacterEntry from '../CharacterEntry'
 import TimelineDecorator from './TimelineDecorator'
 import { filterTimeLine } from '../../utilities/filterTimeLine.js'
-import { capitalizeFirstLetter } from '../../utilities/capitalizeFirstLetter.js'
 
 class AuthTime extends Component {
   constructor(props) {
@@ -26,6 +22,7 @@ class AuthTime extends Component {
     this.handlePlayerNameKey = this.handlePlayerNameKey.bind(this);
     this.setPlayerTimeline = this.setPlayerTimeline.bind(this);
     this.exitTimeLine = this.exitTimeLine.bind(this);
+    this.displayError = this.displayError.bind(this);
   }
 
   setPlayerTimeline() {
@@ -62,14 +59,29 @@ class AuthTime extends Component {
     });
   }
 
+  displayError() {
+    if (this.state.error !== "") {
+      return (
+        <Alert color="danger">
+          Please Enter a valid player name
+        </Alert>
+      )
+    } else {
+      return
+    }
+  }
+
   render() {
     if (this.state.moveOn === "") {
       return (
-        <CharacterEntry
-          onChange={this.handlePlayerNameChange}
-          enterFunc={this.setPlayerTimeline}
-          onKeyPress={this.handlePlayerNameKey}
-        />
+        <div>
+          {this.displayError()}
+          <CharacterEntry
+            onChange={this.handlePlayerNameChange}
+            enterFunc={this.setPlayerTimeline}
+            onKeyPress={this.handlePlayerNameKey}
+          />
+        </div>
       )
     } else {
       return (
