@@ -6,6 +6,7 @@ import {
 } from 'reactstrap';
 import Time from '../../Time'
 import { capitalizeFirstLetter } from '../../../utilities/capitalizeFirstLetter.js'
+import { addPossesive } from '../../../utilities/addPossesive.js'
 
 class TimelineDecorator extends Component {
   render() {
@@ -20,7 +21,11 @@ class TimelineDecorator extends Component {
         </Button>
         <Jumbotron fluid>
           <Container fluid>
-            <center><h1 className="display-3">{capitalizeFirstLetter(this.props.playerName)}'s Timeline</h1></center>
+            <center>
+              <h1 className="display-3">
+                {addPossesive(capitalizeFirstLetter(this.props.playerName))} Timeline
+              </h1>
+            </center>
           </Container>
         </Jumbotron>
         <Time
