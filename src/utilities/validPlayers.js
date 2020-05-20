@@ -1,4 +1,4 @@
-export const validPlayers = {
+export const validCharacters = {
   "cade": true, // Complete
   "naomi": true, // Complete
   "ator": true, // Complete
@@ -16,7 +16,7 @@ export const validPlayers = {
   "fowl": true,
 }
 
-export const playerVariations = {
+export const characterVariations = {
   "cade goodbarrel": "cade",
   "cadegoodbarrel": "cade",
   "ator htailog": "ator",

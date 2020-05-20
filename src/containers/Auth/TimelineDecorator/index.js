@@ -17,13 +17,13 @@ class TimelineDecorator extends Component {
           color="danger"
           onClick={this.props.exitTimeLine}
         >
-          exit {capitalizeFirstLetter(this.props.playerName)}
+          exit {capitalizeFirstLetter(this.props.characterName)}
         </Button>
         <Jumbotron fluid>
           <Container fluid>
             <center>
               <h1 className="display-3">
-                {addPossesive(capitalizeFirstLetter(this.props.playerName))} Timeline
+                {addPossesive(capitalizeFirstLetter(this.props.characterName))} Timeline
               </h1>
             </center>
           </Container>

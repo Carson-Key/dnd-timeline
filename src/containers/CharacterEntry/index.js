@@ -27,11 +27,11 @@ class CharacterEntry extends Component {
         </Row>
         <Row className="centered">
           <Col>
-            <p>What is Your Player's Name?</p>
+            <p>What is Your Character Name?</p>
             <InputGroup>
               <Input
                 placeholder="Cade Goodbarrel"
-                value={this.props.playerName}
+                value={this.props.characterName}
                 onChange={this.props.onChange}
                 onKeyPress={this.props.onKeyPress}
               />

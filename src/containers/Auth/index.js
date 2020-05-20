@@ -11,23 +11,23 @@ class AuthTime extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      playerName: "",
+      characterName: "",
       moveOn: "",
       error: ""
     }
 
     this.newTimeLine = {}
 
-    this.handlePlayerNameChange = this.handlePlayerNameChange.bind(this);
-    this.handlePlayerNameKey = this.handlePlayerNameKey.bind(this);
-    this.setPlayerTimeline = this.setPlayerTimeline.bind(this);
+    this.handleCharacterNameChange = this.handleCharacterNameChange.bind(this);
+    this.handleCharacterNameKey = this.handleCharacterNameKey.bind(this);
+    this.setCharacterTimeline = this.setCharacterTimeline.bind(this);
     this.exitTimeLine = this.exitTimeLine.bind(this);
     this.displayError = this.displayError.bind(this);
   }
 
-  setPlayerTimeline() {
-    if (this.state.playerName !== "") {
-      this.newTimeLine = filterTimeLine(this.state.playerName, this.props.timeline)
+  setCharacterTimeline() {
+    if (this.state.characterName !== "") {
+      this.newTimeLine = filterTimeLine(this.state.characterName, this.props.timeline)
       if (this.newTimeLine === "error") {
         this.setState({
           error: "error"
@@ -47,16 +47,16 @@ class AuthTime extends Component {
     }
   }
 
-  handlePlayerNameChange(event) {
+  handleCharacterNameChange(event) {
     this.setState({
-      playerName: event.target.value
+      characterName: event.target.value
     });
   }
-  handlePlayerNameKey(event) {
+  handleCharacterNameKey(event) {
     if (event.key === "Enter") {
       this.setState({
-        playerName: event.target.value
-      }, this.setPlayerTimeline());
+        characterName: event.target.value
+      }, this.setCharacterTimeline());
     }
   }
 
@@ -70,7 +70,7 @@ class AuthTime extends Component {
     if (this.state.error !== "") {
       return (
         <Alert color="danger">
-          Please Enter a valid player name
+          Please Enter a valid Character name
         </Alert>
       )
     } else {
@@ -84,9 +84,9 @@ class AuthTime extends Component {
         <div>
           {this.displayError()}
           <CharacterEntry
-            onChange={this.handlePlayerNameChange}
-            enterFunc={this.setPlayerTimeline}
-            onKeyPress={this.handlePlayerNameKey}
+            onChange={this.handleCharacterNameChange}
+            enterFunc={this.setCharacterTimeline}
+            onKeyPress={this.handleCharacterNameKey}
           />
         </div>
       )
@@ -94,7 +94,7 @@ class AuthTime extends Component {
       return (
         <TimelineDecorator
           exitTimeLine={this.exitTimeLine}
-          playerName={this.state.playerName}
+          characterName={this.state.characterName}
           newTimeLine={this.newTimeLine}
           lessThanYearZero={this.props.lessThanYearZero}
           greaterThanYearZero={this.props.greaterThanYearZero}

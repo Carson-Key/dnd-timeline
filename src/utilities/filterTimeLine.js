@@ -1,25 +1,25 @@
-import { validPlayers, playerVariations } from './validPlayers.js'
+import { validCharacters, characterVariations } from './validPlayers.js'
 
-export function filterTimeLine(playerName, timeline) {
-  if (playerVariations[playerName]) {
-    playerName = playerVariations[playerName]
+export function filterTimeLine(characterName, timeline) {
+  if (characterVariations[characterName]) {
+    characterName = characterVariations[characterName]
   }
-  if (playerName.toLowerCase() === "dm") {
+  if (characterName.toLowerCase() === "dm") {
     return timeline
-  } else if (validPlayers[playerName.toLowerCase()]) {
-    return parseTimeline(playerName.toLowerCase(), timeline)
+  } else if (validCharacters[characterName.toLowerCase()]) {
+    return parseTimeline(characterName.toLowerCase(), timeline)
   } else {
     return "error"
   }
 }
 
-function parseTimeline(playerName, timeline) {
+function parseTimeline(characterName, timeline) {
   const newTimeLine = {}
   const events = Object.keys(timeline)
   events.forEach((year, i) => {
     let yearEvents = []
     timeline[year].forEach((event, j) => {
-      if (event.players[playerName]) {
+      if (event.players[characterName]) {
         yearEvents.push(event)
       }
     })
