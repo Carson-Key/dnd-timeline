@@ -14,6 +14,7 @@ export const validCharacters = {
   "osmetallum": true,
   "luvrunint": true, // Complete
   "fowl": true,
+  "hazy": true,
 }
 
 export const characterVariations = {
@@ -55,4 +56,9 @@ export const characterVariations = {
   "stron helderian": "storn",
   "stronhelderian": "storn",
   "dova": "ikoll",
+  "hazy mist": "hazy",
+  "hazymist": "hazy",
+  "hazel mist": "hazy",
+  "hazelmist": "hazy",
+  "hazel": "hazy",
 }

@@ -140,6 +140,7 @@ export const timeline = {
         "olorin": true,
         "ikoll": true,
         "mar": true,
+        "hazy": true,
       }
     },
   ],
@@ -231,6 +232,7 @@ export const timeline = {
         "cade": true,
         "olorin": true,
         "ikoll": true,
+        "hazy": true,
         "mar": true,
       }
     },
@@ -254,6 +256,7 @@ export const timeline = {
       players: {
         "cade": true,
         "olorin": true,
+        "hazy": true,
         "ikoll": true,
       }
     },
@@ -271,6 +274,7 @@ export const timeline = {
         "storn": true,
         "crainer": true,
         "ikoll": true,
+        "hazy": true,
         "mar": true,
       }
     },
@@ -288,6 +292,7 @@ export const timeline = {
         "storn": true,
         "crainer": true,
         "ikoll": true,
+        "hazy": true,
         "mar": true,
       }
     },
@@ -305,6 +310,7 @@ export const timeline = {
         "storn": true,
         "crainer": true,
         "ikoll": true,
+        "hazy": true,
         "mar": true,
       }
     },
@@ -315,6 +321,7 @@ export const timeline = {
       description: "Newport Family is Founded",
       players: {
         "cade": true,
+        "hazy": true,
         "ikoll": true,
       }
     },
@@ -326,6 +333,7 @@ export const timeline = {
       players: {
         "cade": true,
         "olorin": true,
+        "hazy": true,
         "ikoll": true,
       }
     },
@@ -337,6 +345,7 @@ export const timeline = {
       players: {
         "cade": true,
         "olorin": true,
+        "hazy": true,
         "ikoll": true,
       }
     },
@@ -347,6 +356,7 @@ export const timeline = {
       description: "Atheria Creates the Colony of Dende",
       players: {
         "cade": true,
+        "hazy": true,
         "olorin": true,
       }
     },
@@ -358,6 +368,7 @@ export const timeline = {
       players: {
         "cade": true,
         "olorin": true,
+        "hazy": true,
         "ikoll": true,
       }
     },
@@ -369,6 +380,7 @@ export const timeline = {
       players: {
         "cade": true,
         "olorin": true,
+        "hazy": true,
         "ikoll": true,
       }
     },
@@ -379,6 +391,7 @@ export const timeline = {
       description: "Nokede Conquers all lesser Clans",
       players: {
         "cade": true,
+        "hazy": true,
         "olorin": true,
       }
     },
@@ -394,6 +407,7 @@ export const timeline = {
         "ator": true,
         "storn": true,
         "ikoll": true,
+        "hazy": true,
         "mar": true,
       }
     },
