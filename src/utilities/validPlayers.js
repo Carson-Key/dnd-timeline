@@ -1,7 +1,7 @@
 import { validCharacters } from "./validCharacters.js"
 
 const validPlayers = {
-  "5924": {
+  "butts": {
     "characters": validCharacters
   },
   "gold": {
