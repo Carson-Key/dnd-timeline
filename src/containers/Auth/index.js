@@ -42,10 +42,17 @@ class Auth extends Component {
     if (playerObject === "error") {
       this.setState({
         error: playerObject
+      }, () => {
+        setTimeout(() => {
+          this.setState({
+            error: ""
+          })
+        }, 5000)
       });
     } else {
       this.setState({
         moveOn: "go",
+        error: "",
         playerObject: playerObject
       })
     }
