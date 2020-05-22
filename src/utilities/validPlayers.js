@@ -55,7 +55,7 @@ const validPlayers = {
       }
     }
   },
-  "4470": {
+  "4848": {
     "characters": {
       "naomi": {
         "name": "Naomi Samara",
@@ -66,6 +66,48 @@ const validPlayers = {
       "viola": {
         "name": "Viola",
         "characterKey": "viola",
+        "buttonColor": "",
+        "timeline": timeline
+      }
+    }
+  },
+  "5784": {
+    "characters": {
+      "indominous": {
+        "name": "Indominous Von Zarovich",
+        "characterKey": "indominous",
+        "buttonColor": "",
+        "timeline": timeline
+      },
+      "ator": {
+        "name": "Ator Htailog",
+        "characterKey": "ator",
+        "buttonColor": "",
+        "timeline": timeline
+      }
+    }
+  },
+  "0876": {
+    "characters": {
+      "mar": {
+        "name": "Mar Corvus",
+        "characterKey": "mar",
+        "buttonColor": "",
+        "timeline": timeline
+      },
+      "olorin": {
+        "name": "Olorin Corvus",
+        "characterKey": "olorin",
+        "buttonColor": "",
+        "timeline": timeline
+      }
+    }
+  },
+  "5450": {
+    "characters": {
+      "storn": {
+        "name": "Storn Helderian",
+        "characterKey": "storn",
         "buttonColor": "",
         "timeline": timeline
       }
