@@ -11,7 +11,7 @@ const validPlayers = {
       }
     }
   },
-  "0853": {
+  "gold": {
     "characters": {
       "cade": {
         "name": "Cade Goodbarrel",
@@ -22,6 +22,50 @@ const validPlayers = {
       "hazy": {
         "name": "Hazy Mist",
         "characterKey": "hazy",
+        "buttonColor": "",
+        "timeline": timeline
+      }
+    }
+  },
+  "4470": {
+    "characters": {
+      "crainer": {
+        "name": "Crainer Caracas",
+        "characterKey": "crainer",
+        "buttonColor": "",
+        "timeline": timeline
+      },
+      "ikoll": {
+        "name": "Dova",
+        "characterKey": "ikoll",
+        "buttonColor": "",
+        "timeline": timeline
+      },
+      "fowl": {
+        "name": "Fowl",
+        "characterKey": "fowl",
+        "buttonColor": "",
+        "timeline": timeline
+      },
+      "fish": {
+        "name": "F.I.S.H",
+        "characterKey": "fish",
+        "buttonColor": "",
+        "timeline": timeline
+      }
+    }
+  },
+  "4470": {
+    "characters": {
+      "naomi": {
+        "name": "Naomi Samara",
+        "characterKey": "naomi",
+        "buttonColor": "",
+        "timeline": timeline
+      },
+      "viola": {
+        "name": "Viola",
+        "characterKey": "viola",
         "buttonColor": "",
         "timeline": timeline
       }

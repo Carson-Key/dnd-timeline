@@ -6,7 +6,6 @@ import {
   Row,
   Col,
 } from 'reactstrap';
-import { capitalizeFirstLetter } from '../../utilities/capitalizeFirstLetter.js'
 import { setTimeline } from '../../utilities/validPlayers.js'
 
 class CharacterEntry extends Component {
@@ -29,7 +28,7 @@ class CharacterEntry extends Component {
                     <Button
                       onClick={() => {this.props.characterSelect(character)}}
                     >
-                      {capitalizeFirstLetter(character)}
+                      {this.props.playerObject.characters[character].name}
                     </Button>
                     <br />
                     <br />
