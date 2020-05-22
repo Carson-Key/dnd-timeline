@@ -41,7 +41,9 @@ export function validatePlayer(name) {
 export function setTimeline(playerObject, characterKey){
   const characterObject = playerObject.characters[characterKey]
 
-  characterObject.timeline = parseTimeline(characterObject.characterKey, characterObject.timeline)
+  if (characterKey !== "dm") {
+    characterObject.timeline = parseTimeline(characterObject.characterKey, characterObject.timeline)
+  }
 }
 
 function parseTimeline(characterName, timeline) {
