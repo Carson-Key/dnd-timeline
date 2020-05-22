@@ -70,7 +70,7 @@ class Auth extends Component {
           {this.displayError()}
           <PlayerEntry
             onChange={this.handlePlayerNameChange}
-            onKeyPress={this.handleCharacterNameKey}
+            onKeyPress={this.handlePlayerNameKey}
             enterFunc={this.enterPlayerName}
           />
         </div>
