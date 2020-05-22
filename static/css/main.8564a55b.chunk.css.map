@@ -1,0 +1,1 @@
+{"version":3,"sources":["index.css"],"names":[],"mappings":"AAAA,KACE,QAAS,CACT,mJAEY,CACZ,kCAAmC,CACnC,iCACF,CAEA,KACE,yEAEF,CAZA,YACE,cAAe,CACf,aAAc,CACd,gBACF,CAJA,MACE,cAAe,CACf,eAAgB,CAChB,sCACF,CAJA,UACE,cAAe,CACf,OAAQ,CACR,SACF","file":"main.8564a55b.chunk.css","sourcesContent":[".centered {\n  position: fixed;\n  top: 50%;\n  width: 80%;\n}\n"]}
