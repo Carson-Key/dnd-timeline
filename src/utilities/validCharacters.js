@@ -84,6 +84,12 @@ export const validCharacters = {
     "characterKey": "storn",
     "buttonColor": "",
     "timeline": timeline
+  },
+  "dalgur": {
+    "name": "Dalgur Hearthfire",
+    "characterKey": "dalgur",
+    "buttonColor": "",
+    "timeline": timeline
   }
 }
 

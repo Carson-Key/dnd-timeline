@@ -5,6 +5,7 @@ export const timeline = {
       description: "Kingdom of Dwarves is Founded",
       players: {
         "cade": true,
+        "dalgur": true,
         "olorin": true,
       }
     },
@@ -140,6 +141,7 @@ export const timeline = {
         "olorin": true,
         "ikoll": true,
         "mar": true,
+        "dalgur": true,
         "hazy": true,
       }
     },
@@ -233,6 +235,7 @@ export const timeline = {
         "olorin": true,
         "ikoll": true,
         "hazy": true,
+        "dalgur": true,
         "mar": true,
       }
     },
@@ -257,6 +260,7 @@ export const timeline = {
         "cade": true,
         "olorin": true,
         "hazy": true,
+        "dalgur": true,
         "ikoll": true,
       }
     },
@@ -275,6 +279,7 @@ export const timeline = {
         "crainer": true,
         "ikoll": true,
         "hazy": true,
+        "dalgur": true,
         "mar": true,
       }
     },
@@ -293,6 +298,7 @@ export const timeline = {
         "crainer": true,
         "ikoll": true,
         "hazy": true,
+        "dalgur": true,
         "mar": true,
       }
     },
@@ -311,6 +317,7 @@ export const timeline = {
         "crainer": true,
         "ikoll": true,
         "hazy": true,
+        "dalgur": true,
         "mar": true,
       }
     },
@@ -322,6 +329,7 @@ export const timeline = {
       players: {
         "cade": true,
         "hazy": true,
+        "dalgur": true,
         "ikoll": true,
       }
     },
@@ -334,6 +342,7 @@ export const timeline = {
         "cade": true,
         "olorin": true,
         "hazy": true,
+        "dalgur": true,
         "ikoll": true,
       }
     },
@@ -408,6 +417,7 @@ export const timeline = {
         "storn": true,
         "ikoll": true,
         "hazy": true,
+        "dalgur": true,
         "mar": true,
       }
     },
@@ -423,6 +433,7 @@ export const timeline = {
         "ator": true,
         "storn": true,
         "ikoll": true,
+        "dalgur": true,
         "mar": true,
       }
     },
@@ -438,6 +449,7 @@ export const timeline = {
         "ator": true,
         "storn": true,
         "ikoll": true,
+        "dalgur": true,
         "mar": true,
       }
     },
@@ -451,6 +463,7 @@ export const timeline = {
         "ator": true,
         "storn": true,
         "ikoll": true,
+        "dalgur": true,
         "mar": true,
       }
     },
@@ -464,6 +477,7 @@ export const timeline = {
         "ator": true,
         "storn": true,
         "ikoll": true,
+        "dalgur": true,
         "mar": true,
       }
     },
@@ -479,6 +493,7 @@ export const timeline = {
         "ator": true,
         "storn": true,
         "ikoll": true,
+        "dalgur": true,
         "mar": true,
       }
     },
@@ -530,6 +545,7 @@ export const timeline = {
         "ator": true,
         "storn": true,
         "ikoll": true,
+        "dalgur": true,
         "mar": true,
       }
     },
@@ -1554,6 +1570,7 @@ export const timeline = {
         "cade": true,
         "olorin": true,
         "ikoll": true,
+        "dalgur": true,
         "mar": true,
       }
     },
@@ -1575,6 +1592,7 @@ export const timeline = {
         "cade": true,
         "olorin": true,
         "ikoll": true,
+        "dalgur": true,
         "mar": true,
       }
     },
@@ -1758,6 +1776,7 @@ export const timeline = {
         "cade": true,
         "olorin": true,
         "ikoll": true,
+        "dalgur": true,
         "mar": true,
       }
     },
@@ -1769,6 +1788,7 @@ export const timeline = {
         "cade": true,
         "olorin": true,
         "ikoll": true,
+        "dalgur": true,
         "mar": true,
       }
     },
@@ -1780,6 +1800,7 @@ export const timeline = {
         "cade": true,
         "olorin": true,
         "ikoll": true,
+        "dalgur": true,
         "mar": true,
       }
     },
@@ -1793,6 +1814,7 @@ export const timeline = {
         "cade": true,
         "olorin": true,
         "ikoll": true,
+        "dalgur": true,
         "mar": true,
       }
     },
@@ -1804,6 +1826,7 @@ export const timeline = {
         "cade": true,
         "olorin": true,
         "ikoll": true,
+        "dalgur": true,
         "mar": true,
       }
     },
@@ -1816,6 +1839,7 @@ export const timeline = {
         "indominous": true,
         "cade": true,
         "ikoll": true,
+        "dalgur": true,
         "mar": true,
       }
     },
@@ -1825,6 +1849,7 @@ export const timeline = {
       players: {
         "cade": true,
         "ikoll": true,
+        "dalgur": true,
         "mar": true,
       }
     },
@@ -1977,6 +2002,7 @@ export const timeline = {
         "cade": true,
         "olorin": true,
         "ikoll": true,
+        "dalgur": true,
         "mar": true,
       }
     },
@@ -1993,6 +2019,7 @@ export const timeline = {
         "naomi": true,
         "ator": true,
         "storn": true,
+        "dalgur": true,
         "mar": true,
       }
     },
@@ -2155,6 +2182,7 @@ export const timeline = {
         "indominous": true,
         "cade": true,
         "ikoll": true,
+        "dalgur": true,
         "mar": true,
       }
     },
@@ -2248,6 +2276,7 @@ export const timeline = {
         "indominous": true,
         "cade": true,
         "ikoll": true,
+        "dalgur": true,
         "mar": true,
       }
     },
@@ -2258,6 +2287,7 @@ export const timeline = {
         "indominous": true,
         "cade": true,
         "ikoll": true,
+        "dalgur": true,
         "mar": true,
       }
     },
@@ -2266,6 +2296,7 @@ export const timeline = {
     	description: "A New Class of Adventures Arrive at GAC Adventuring School",
       players: {
         "cade": true,
+        "dalgur": true,
         "ikoll": true,
       }
     },
@@ -2273,6 +2304,7 @@ export const timeline = {
       date: 878,
       description: "A group of Students at GAC are tasked by Phira to find out what happend to Cade as a test",
       players: {
+        "dalgur": true,
         "mar": true,
       }
     },
@@ -2282,6 +2314,7 @@ export const timeline = {
       players: {
         "cade": true,
         "ikoll": true,
+        "dalgur": true,
         "mar": true,
       }
     },
@@ -2292,6 +2325,7 @@ export const timeline = {
        "indominous": true,
        "cade": true,
        "ikoll": true,
+       "dalgur": true,
        "mar": true,
      }
    },
@@ -2302,6 +2336,7 @@ export const timeline = {
       description: "Cade sends the Adventures of GAC to find the Destroyer of Civilization",
       players: {
         "cade": true,
+        "dalgur": true,
         "mar": true,
       }
     },
@@ -2310,6 +2345,7 @@ export const timeline = {
       description: "The Adventures of GAC reach the gates of Barovia, now trapped there like many before them",
       players: {
         "indominous": true,
+        "dalgur": true,
         "cade": true,
       }
     },
@@ -2318,6 +2354,7 @@ export const timeline = {
       description: "The Adventures of GAC find that Aron has become a lich",
       players: {
         "indominous": true,
+        "dalgur": true,
         "cade": true,
       }
     },
@@ -2326,6 +2363,7 @@ export const timeline = {
       description: "The Adventures of GAC get the help of the king of Barovia, Indominous. Despite warnings from Cade",
       players: {
         "indominous": true,
+        "dalgur": true,
         "cade": true,
       }
     },
@@ -2334,6 +2372,7 @@ export const timeline = {
       description: "With the help of Indominous Aron is cured from lichdom",
       players: {
         "indominous": true,
+        "dalgur": true,
         "cade": true,
       }
     },
@@ -2342,6 +2381,7 @@ export const timeline = {
       description: "For his help Indominous asks for the help of The Adventures of GAC",
       players: {
         "indominous": true,
+        "dalgur": true,
         "cade": true,
       }
     },
@@ -2351,6 +2391,7 @@ export const timeline = {
       players: {
         "indominous": true,
         "cade": true,
+        "dalgur": true,
         "mar": true,
       }
     },
@@ -2360,6 +2401,7 @@ export const timeline = {
       players: {
         "indominous": true,
         "cade": true,
+        "dalgur": true,
         "mar": true,
       }
     },
@@ -2369,6 +2411,7 @@ export const timeline = {
       players: {
         "indominous": true,
         "cade": true,
+        "dalgur": true,
         "mar": true,
       }
     },
@@ -2378,6 +2421,7 @@ export const timeline = {
       players: {
         "indominous": true,
         "cade": true,
+        "dalgur": true,
         "mar": true,
       }
     },
@@ -2386,6 +2430,7 @@ export const timeline = {
       description: "Before Spagetti is sentenced to death, Indominous tricks Spagetti into making him a Vampire lord",
       players: {
         "indominous": true,
+        "dalgur": true,
         "cade": true,
         "mar": true,
       }
@@ -2396,6 +2441,7 @@ export const timeline = {
       players: {
         "indominous": true,
         "cade": true,
+        "dalgur": true,
         "mar": true,
       }
     },
@@ -2404,6 +2450,7 @@ export const timeline = {
       description: "The Adventures of GAC arrive in Midbigdonia",
       players: {
         "cade": true,
+        "dalgur": true,
         "mar": true,
       }
     },
@@ -2412,6 +2459,7 @@ export const timeline = {
       description: "The Adventures of GAC search for the artifact",
       players: {
         "cade": true,
+        "dalgur": true,
         "mar": true,
       }
     },
@@ -2421,6 +2469,7 @@ export const timeline = {
       date: 880,
       description: "The Adventures of GAC after a year finally find the Destroyer of Civilization",
       players: {
+        "dalgur": true,
         "cade": true,
       }
     },
@@ -2429,6 +2478,7 @@ export const timeline = {
       description: "The Adventures of GAC defeat Zolbir and recover the artifact before it could be used to kill millions",
       players: {
         "cade": true,
+        "dalgur": true,
         "mar": true,
       }
     },
@@ -2437,6 +2487,7 @@ export const timeline = {
       description: "Martin Geko is killed in battle against Zolbir",
       players: {
         "cade": true,
+        "dalgur": true,
       }
     },
     {
@@ -2444,6 +2495,7 @@ export const timeline = {
       description: "The Destroyer of Civilization is returned to the GAC Vault",
       players: {
         "cade": true,
+        "dalgur": true,
         "mar": true,
       }
     },
@@ -2452,6 +2504,7 @@ export const timeline = {
       description: "Dalgur and Sigmund are offered to join Edge Lord and the Pussy cats. Dalgur accepts but Sigmund declines",
       players: {
         "cade": true,
+        "dalgur": true,
         "mar": true,
       }
     },
@@ -2518,6 +2571,7 @@ export const timeline = {
       date: 887,
       description: "Dalgur returns to his family after Graduating GAC",
       players: {
+        "dalgur": true,
         "cade": true,
       }
     },
@@ -2525,6 +2579,7 @@ export const timeline = {
       date: 887,
       description: "Dalgur finds out the origin of his family and their rivial family",
       players: {
+        "dalgur": true,
         "cade": true,
       }
     },
@@ -2532,6 +2587,7 @@ export const timeline = {
       date: 887,
       description: "Dalgur starts a quest to reunite the families, so the armoring and weaponsmithing crafts can become what they were ment to be",
       players: {
+        "dalgur": true,
         "cade": true,
       }
     },
@@ -2539,6 +2595,7 @@ export const timeline = {
       date: 887,
       description: "Dalgur finds Kerlin's journal, and discovers what Kerlin wanted his two sons to become",
       players: {
+        "dalgur": true,
         "cade": true,
       }
     },
@@ -2546,6 +2603,7 @@ export const timeline = {
       date: 887,
       description: "Dalgur falls in love with Hearthforge girl, who is an outcast in her family. Just like he is",
       players: {
+        "dalgur": true,
         "cade": true,
       }
     },
@@ -2553,6 +2611,7 @@ export const timeline = {
       date: 887,
       description: "Dalgur secretly marries his love",
       players: {
+        "dalgur": true,
         "cade": true,
       }
     },
@@ -2563,6 +2622,7 @@ export const timeline = {
       description: "Dalgur's marrage is found out and starts a small skirmish",
       players: {
         "indominous": true,
+        "dalgur": true,
         "cade": true,
       }
     },
@@ -2571,6 +2631,7 @@ export const timeline = {
       description: "Dalgur gets the help of Cade to end the rivialry",
       players: {
         "cade": true,
+        "dalgur": true,
         "ikoll": true,
       }
     },
@@ -2581,6 +2642,7 @@ export const timeline = {
         "indominous": true,
         "cade": true,
         "ikoll": true,
+        "dalgur": true,
         "mar": true,
       }
     },
@@ -2594,6 +2656,7 @@ export const timeline = {
         "cade": true,
         "olorin": true,
         "ikoll": true,
+        "dalgur": true,
         "mar": true,
       }
     },
@@ -2601,6 +2664,7 @@ export const timeline = {
       date: 889,
       description: "Phira comes to Shade, Osbellum, Osmetallum, Tabz, and Dalgur to get their help to find a way to help Cade with his insanity. Which has become a very large issue in the Atherion state",
       players: {
+        "dalgur": true,
         "cade": true,
       }
     },
@@ -2610,6 +2674,7 @@ export const timeline = {
       date: 890,
       description: "After months of research, the group decides to find Formicide",
       players: {
+        "dalgur": true,
         "cade": true,
       }
     },
@@ -2617,6 +2682,7 @@ export const timeline = {
       date: 890,
       description: "Dalgur, Phira, and Osbellum go out to find Formicide",
       players: {
+        "dalgur": true,
         "cade": true,
       }
     },
@@ -2624,6 +2690,7 @@ export const timeline = {
       date: 890,
       description: "After months of searching the group finds Formicide in the far reaches of the Wild lands",
       players: {
+        "dalgur": true,
         "cade": true,
       }
     },
@@ -2631,6 +2698,7 @@ export const timeline = {
       date: 890,
       description: "Formicide agrees to cure Cade's insanity and creates a concotion to help his mind",
       players: {
+        "dalgur": true,
         "cade": true,
       }
     },
@@ -2640,6 +2708,7 @@ export const timeline = {
       date: 891,
       description: "The group brings the concotion to Cade, giving him the drink, and curing him of his insanity",
       players: {
+        "dalgur": true,
         "cade": true,
       }
     },
@@ -2647,6 +2716,7 @@ export const timeline = {
       date: 891,
       description: "Despite much debate, Cade decides to keep the ruse of his insanity as to not gain too much notice while he starts research on a project of an exterme dirness",
       players: {
+        "dalgur": true,
         "cade": true,
       }
     },
@@ -2672,6 +2742,7 @@ export const timeline = {
         "olorin": true,
         "indominous": true,
         "crainer": true,
+        "dalgur": true,
       }
     },
   ],

@@ -7,7 +7,8 @@ const validPlayers = {
   "gold": {
     "characters": {
       "cade": validCharacters["cade"],
-      "hazy": validCharacters["hazy"]
+      "hazy": validCharacters["hazy"],
+      "dalgur": validCharacters["dalgur"]
     }
   },
   "4470": {
