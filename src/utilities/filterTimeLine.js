@@ -1,4 +1,4 @@
-import { validCharacters, characterVariations } from './validPlayers.js'
+import { validCharacters, characterVariations } from './validCharacters.js'
 
 export function filterTimeLine(characterName, timeline) {
   if (characterVariations[characterName]) {

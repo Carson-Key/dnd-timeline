@@ -29,7 +29,7 @@ class TimelineDecorator extends Component {
           </Container>
         </Jumbotron>
         <Time
-          timeline={this.props.newTimeLine}
+          timeline={this.props.playerObject.characters[this.props.characterName].timeline}
           lessThanYearZero={this.props.lessThanYearZero}
           greaterThanYearZero={this.props.greaterThanYearZero}
         />

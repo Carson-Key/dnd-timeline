@@ -3,74 +3,59 @@ import './index.css'
 import {
   Alert
 } from 'reactstrap';
-import CharacterEntry from '../CharacterEntry'
-import TimelineDecorator from './TimelineDecorator'
-import { filterTimeLine } from '../../utilities/filterTimeLine.js'
+import PlayerPage from '../PlayerPage'
+import PlayerEntry from '../PlayerEntry'
+import { validatePlayer } from '../../utilities/validPlayers.js'
 
-class AuthTime extends Component {
+class Auth extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      characterName: "",
+      playerName: "",
       moveOn: "",
-      error: ""
+      error: "",
+      playerObject: {}
     }
 
     this.newTimeLine = {}
 
-    this.handleCharacterNameChange = this.handleCharacterNameChange.bind(this);
-    this.handleCharacterNameKey = this.handleCharacterNameKey.bind(this);
-    this.setCharacterTimeline = this.setCharacterTimeline.bind(this);
-    this.exitTimeLine = this.exitTimeLine.bind(this);
+    this.handlePlayerNameChange = this.handlePlayerNameChange.bind(this);
+    this.handlePlayerNameKey = this.handlePlayerNameKey.bind(this);
     this.displayError = this.displayError.bind(this);
+    this.enterPlayerName = this.enterPlayerName.bind(this);
   }
 
-  setCharacterTimeline() {
-    if (this.state.characterName !== "") {
-      this.newTimeLine = filterTimeLine(this.state.characterName, this.props.timeline)
-      if (this.newTimeLine === "error") {
-        this.setState({
-          error: "error"
-        }, () => {
-          setTimeout(() => {
-            this.setState({
-              error: ""
-            })
-          }, 5000)
-        });
-      } else {
-        this.setState({
-          moveOn: "True",
-          error: ""
-        });
-      }
-    }
-  }
-
-  handleCharacterNameChange(event) {
+  handlePlayerNameChange(event) {
     this.setState({
-      characterName: event.target.value
+      playerName: event.target.value
     });
   }
-  handleCharacterNameKey(event) {
+  handlePlayerNameKey(event) {
     if (event.key === "Enter") {
       this.setState({
-        characterName: event.target.value
-      }, this.setCharacterTimeline());
+        playerName: event.target.value
+      }, this.enterPlayerName(this.state.playerName));
     }
   }
-
-  exitTimeLine() {
-    this.setState({
-      moveOn: ""
-    });
+  enterPlayerName() {
+    const playerObject = validatePlayer(this.state.playerName)
+    if (playerObject === "error") {
+      this.setState({
+        error: playerObject
+      });
+    } else {
+      this.setState({
+        moveOn: "go",
+        playerObject: playerObject
+      })
+    }
   }
 
   displayError() {
     if (this.state.error !== "") {
       return (
         <Alert color="danger">
-          Please Enter a valid Character name
+          Please Enter a valid player name
         </Alert>
       )
     } else {
@@ -83,19 +68,19 @@ class AuthTime extends Component {
       return (
         <div>
           {this.displayError()}
-          <CharacterEntry
-            onChange={this.handleCharacterNameChange}
-            enterFunc={this.setCharacterTimeline}
+          <PlayerEntry
+            onChange={this.handlePlayerNameChange}
             onKeyPress={this.handleCharacterNameKey}
+            enterFunc={this.enterPlayerName}
           />
         </div>
       )
     } else {
       return (
-        <TimelineDecorator
+        <PlayerPage
           exitTimeLine={this.exitTimeLine}
-          characterName={this.state.characterName}
-          newTimeLine={this.newTimeLine}
+          playerName={this.state.playerName}
+          playerObject={this.state.playerObject}
           lessThanYearZero={this.props.lessThanYearZero}
           greaterThanYearZero={this.props.greaterThanYearZero}
         />
@@ -104,4 +89,4 @@ class AuthTime extends Component {
   }
 }
 
-export default AuthTime
+export default Auth

@@ -1,44 +1,42 @@
 import React, { Component } from 'react'
 import './index.css'
 import {
-  InputGroup,
-  InputGroupAddon,
-  Input,
   Button,
   Container,
   Row,
   Col,
-  Jumbotron
 } from 'reactstrap';
+import { capitalizeFirstLetter } from '../../utilities/capitalizeFirstLetter.js'
+import { setTimeline } from '../../utilities/validPlayers.js'
 
 class CharacterEntry extends Component {
   render() {
+    const characters = Object.keys(this.props.playerObject.characters)
     return (
       <Container>
         <br />
         <Row>
           <Col>
-            <Jumbotron fluid>
-              <Container fluid>
-                <center><h1 className="display-3">Timeline</h1></center>
-              </Container>
-            </Jumbotron>
-          </Col>
-        </Row>
-        <Row className="centered">
-          <Col>
-            <p>What is Your Character Name?</p>
-            <InputGroup>
-              <Input
-                placeholder="Cade Goodbarrel"
-                value={this.props.characterName}
-                onChange={this.props.onChange}
-                onKeyPress={this.props.onKeyPress}
-              />
-              <InputGroupAddon addonType="append">
-                <Button onClick={this.props.enterFunc}>Enter</Button>
-              </InputGroupAddon>
-            </InputGroup>
+            <center>
+              <p>Pick a character</p>
+              <br />
+            </center>
+            {
+              characters.map((character, i) => {
+                setTimeline(this.props.playerObject, character)
+                return (
+                  <center>
+                    <Button
+                      onClick={() => {this.props.characterSelect(character)}}
+                    >
+                      {capitalizeFirstLetter(character)}
+                    </Button>
+                    <br />
+                    <br />
+                  </center>
+                )
+              })
+            }
           </Col>
         </Row>
       </Container>
