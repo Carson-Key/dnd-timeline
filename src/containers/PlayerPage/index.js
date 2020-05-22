@@ -1,11 +1,7 @@
 import React, { Component } from 'react'
 import './index.css'
-import {
-  Alert
-} from 'reactstrap';
 import CharacterEntry from '../CharacterEntry'
 import TimelineDecorator from './TimelineDecorator'
-import { filterTimeLine } from '../../utilities/filterTimeLine.js'
 
 class PlayerPage extends Component {
   constructor(props) {

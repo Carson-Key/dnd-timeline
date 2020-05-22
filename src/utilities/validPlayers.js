@@ -1,116 +1,44 @@
-import { timeline } from "./timeline.js"
+import { validCharacters } from "./validCharacters.js"
 
 const validPlayers = {
   "5924": {
-    "characters": {
-      "dm": {
-        "name": "DM",
-        "characterKey": "dm",
-        "buttonColor": "",
-        "timeline": timeline
-      }
-    }
+    "characters": validCharacters
   },
   "gold": {
     "characters": {
-      "cade": {
-        "name": "Cade Goodbarrel",
-        "characterKey": "cade",
-        "buttonColor": "",
-        "timeline": timeline
-      },
-      "hazy": {
-        "name": "Hazy Mist",
-        "characterKey": "hazy",
-        "buttonColor": "",
-        "timeline": timeline
-      }
+      "cade": validCharacters["cade"],
+      "hazy": validCharacters["hazy"]
     }
   },
   "4470": {
     "characters": {
-      "crainer": {
-        "name": "Crainer Caracas",
-        "characterKey": "crainer",
-        "buttonColor": "",
-        "timeline": timeline
-      },
-      "ikoll": {
-        "name": "Dova",
-        "characterKey": "ikoll",
-        "buttonColor": "",
-        "timeline": timeline
-      },
-      "fowl": {
-        "name": "Fowl",
-        "characterKey": "fowl",
-        "buttonColor": "",
-        "timeline": timeline
-      },
-      "fish": {
-        "name": "F.I.S.H",
-        "characterKey": "fish",
-        "buttonColor": "",
-        "timeline": timeline
-      }
+      "crainer": validCharacters["crainer"],
+      "ikoll": validCharacters["ikoll"],
+      "fowl": validCharacters["fowl"],
+      "fish": validCharacters["fish"]
     }
   },
   "4848": {
     "characters": {
-      "naomi": {
-        "name": "Naomi Samara",
-        "characterKey": "naomi",
-        "buttonColor": "",
-        "timeline": timeline
-      },
-      "viola": {
-        "name": "Viola",
-        "characterKey": "viola",
-        "buttonColor": "",
-        "timeline": timeline
-      }
+      "naomi": validCharacters["naomi"],
+      "viola": validCharacters["viola"]
     }
   },
   "5784": {
     "characters": {
-      "indominous": {
-        "name": "Indominous Von Zarovich",
-        "characterKey": "indominous",
-        "buttonColor": "",
-        "timeline": timeline
-      },
-      "ator": {
-        "name": "Ator Htailog",
-        "characterKey": "ator",
-        "buttonColor": "",
-        "timeline": timeline
-      }
+      "indominous": validCharacters["indominous"],
+      "ator": validCharacters["ator"]
     }
   },
   "0876": {
     "characters": {
-      "mar": {
-        "name": "Mar Corvus",
-        "characterKey": "mar",
-        "buttonColor": "",
-        "timeline": timeline
-      },
-      "olorin": {
-        "name": "Olorin Corvus",
-        "characterKey": "olorin",
-        "buttonColor": "",
-        "timeline": timeline
-      }
+      "mar": validCharacters["mar"],
+      "olorin": validCharacters["olorin"]
     }
   },
   "5450": {
     "characters": {
-      "storn": {
-        "name": "Storn Helderian",
-        "characterKey": "storn",
-        "buttonColor": "",
-        "timeline": timeline
-      }
+      "storn": validCharacters["storn"]
     }
   }
 }
