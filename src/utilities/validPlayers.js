@@ -44,7 +44,7 @@ const validPlayers = {
 }
 
 export function validatePlayer(name) {
-  const playerObject = validPlayers[name]
+  const playerObject = validPlayers[name.toLowerCase()]
   if (playerObject) {
     return playerObject
   } else {
