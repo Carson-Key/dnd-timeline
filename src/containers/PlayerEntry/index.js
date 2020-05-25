@@ -27,9 +27,10 @@ class PlayerEntry extends Component {
         </Row>
         <Row className="centered">
           <Col>
-            <p>What is Your Name?</p>
+            <label htmlFor="playerName">What is Your Name:</label>
             <InputGroup>
               <Input
+                id="playerName"
                 placeholder="John Smith"
                 value={this.props.playerName}
                 onChange={this.props.onChange}
