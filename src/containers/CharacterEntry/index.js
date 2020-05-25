@@ -24,7 +24,7 @@ class CharacterEntry extends Component {
               characters.map((character, i) => {
                 setTimeline(this.props.playerObject, character)
                 return (
-                  <center>
+                  <center key={character}>
                     <Button
                       onClick={() => {this.props.characterSelect(character)}}
                     >
