@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React, { Component, Fragment } from 'react'
 import './index.css'
 import {
   Button,
@@ -24,15 +24,17 @@ class CharacterEntry extends Component {
               characters.map((character, i) => {
                 setTimeline(this.props.playerObject, character)
                 return (
-                  <center key={character}>
-                    <Button
-                      onClick={() => {this.props.characterSelect(character)}}
-                    >
-                      {this.props.playerObject.characters[character].name}
-                    </Button>
-                    <br />
-                    <br />
-                  </center>
+                  <Fragment key={character}>
+                    <center>
+                      <Button
+                        onClick={() => {this.props.characterSelect(character)}}
+                      >
+                        {this.props.playerObject.characters[character].name}
+                      </Button>
+                      <br />
+                      <br />
+                    </center>
+                  </Fragment>
                 )
               })
             }
