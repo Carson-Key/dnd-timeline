@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React, { Component, Fragment } from 'react'
 import './index.css'
 import { Media } from 'reactstrap'
 
@@ -9,8 +9,8 @@ class Time extends Component {
       return +parseInt(a) - +parseInt(b)
     })
     return (
-      <div>
-      <br />
+      <Fragment>
+        <br />
         {
           events.map((year, i) => {
             var dateNumber = parseInt(year)
@@ -43,7 +43,7 @@ class Time extends Component {
             })
           })
         }
-      </div>
+      </Fragment>
     )
   }
 }

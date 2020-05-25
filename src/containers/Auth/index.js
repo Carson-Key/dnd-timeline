@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React, { Component, Fragment } from 'react'
 import './index.css'
 import {
   Alert
@@ -73,14 +73,14 @@ class Auth extends Component {
   render() {
     if (this.state.moveOn === "") {
       return (
-        <div>
+        <Fragment>
           {this.displayError()}
           <PlayerEntry
             onChange={this.handlePlayerNameChange}
             onKeyPress={this.handlePlayerNameKey}
             enterFunc={this.enterPlayerName}
           />
-        </div>
+        </Fragment>
       )
     } else {
       return (

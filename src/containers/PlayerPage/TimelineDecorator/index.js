@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React, { Component, Fragment } from 'react'
 import {
   Button,
   Container,
@@ -11,7 +11,7 @@ import { addPossesive } from '../../../utilities/addPossesive.js'
 class TimelineDecorator extends Component {
   render() {
     return (
-      <div>
+      <Fragment>
         <Button
           className="exitButton"
           color="danger"
@@ -33,7 +33,7 @@ class TimelineDecorator extends Component {
           lessThanYearZero={this.props.lessThanYearZero}
           greaterThanYearZero={this.props.greaterThanYearZero}
         />
-      </div>
+      </Fragment>
     )
   }
 }
