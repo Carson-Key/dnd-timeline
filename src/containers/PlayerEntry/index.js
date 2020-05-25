@@ -25,21 +25,23 @@ class PlayerEntry extends Component {
             </Jumbotron>
           </Col>
         </Row>
-        <Row className="centered">
+        <Row>
           <Col>
-            <label htmlFor="playerName">What is Your Name:</label>
-            <InputGroup>
-              <Input
-                id="playerName"
-                placeholder="John Smith"
-                value={this.props.playerName}
-                onChange={this.props.onChange}
-                onKeyPress={this.props.onKeyPress}
-              />
-              <InputGroupAddon addonType="append">
-                <Button onClick={this.props.enterFunc}>Enter</Button>
-              </InputGroupAddon>
-            </InputGroup>
+              <label htmlFor="playerName">What is Your Name:</label>
+              <center>
+              <InputGroup>
+                <Input
+                  id="playerName"
+                  placeholder="John Smith"
+                  value={this.props.playerName}
+                  onChange={this.props.onChange}
+                  onKeyPress={this.props.onKeyPress}
+                />
+                <InputGroupAddon addonType="append">
+                  <Button onClick={this.props.enterFunc}>Enter</Button>
+                </InputGroupAddon>
+              </InputGroup>
+            </center>
           </Col>
         </Row>
       </Container>
