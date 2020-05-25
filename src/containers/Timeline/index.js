@@ -4,11 +4,11 @@ import {
   Container,
   Jumbotron
 } from 'reactstrap';
-import Time from '../../Time'
-import { capitalizeFirstLetter } from '../../../utilities/capitalizeFirstLetter.js'
-import { addPossesive } from '../../../utilities/addPossesive.js'
+import Time from '../Time'
+import { capitalizeFirstLetter } from '../../utilities/capitalizeFirstLetter.js'
+import { addPossesive } from '../../utilities/addPossesive.js'
 
-class TimelineDecorator extends Component {
+class Timeline extends Component {
   render() {
     return (
       <Fragment>
@@ -38,4 +38,4 @@ class TimelineDecorator extends Component {
   }
 }
 
-export default TimelineDecorator
+export default Timeline

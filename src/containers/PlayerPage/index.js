@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import './index.css'
 import CharacterEntry from '../CharacterEntry'
-import TimelineDecorator from './TimelineDecorator'
+import Timeline from '../Timeline'
 
 class PlayerPage extends Component {
   constructor(props) {
@@ -38,7 +38,7 @@ class PlayerPage extends Component {
       )
     } else {
       return (
-        <TimelineDecorator
+        <Timeline
           exitTimeLine={this.exitTimeLine}
           characterName={this.state.characterName}
           playerObject={this.props.playerObject}
