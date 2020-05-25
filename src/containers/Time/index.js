@@ -20,19 +20,21 @@ class Time extends Component {
             )
             return timeline[year].map((event, j) => {
               return (
-                <center key={j}>
-                  <Media>
-                    <Media body>
-                      <Media heading>
-                        {date}
+                <Fragment key={j}>
+                  <center>
+                    <Media>
+                      <Media body>
+                        <Media heading>
+                          {date}
+                        </Media>
+                        {event.description}
                       </Media>
-                      {event.description}
                     </Media>
-                  </Media>
-                  <br/>
-                  <div className="line"></div>
-                  <br/>
-                </center>
+                    <br/>
+                    <div className="line"></div>
+                    <br/>
+                  </center>
+                </Fragment>
               )
             })
           })
