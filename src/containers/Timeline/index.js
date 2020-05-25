@@ -10,6 +10,8 @@ import { addPossesive } from '../../utilities/addPossesive.js'
 
 class Timeline extends Component {
   render() {
+    const timeline = this.props.playerObject.characters[this.props.characterName].timeline
+
     return (
       <Fragment>
         <Button
@@ -29,9 +31,9 @@ class Timeline extends Component {
           </Container>
         </Jumbotron>
         <Time
-          timeline={this.props.playerObject.characters[this.props.characterName].timeline}
-          lessThanYearZero={this.props.lessThanYearZero}
-          greaterThanYearZero={this.props.greaterThanYearZero}
+          timeline={timeline.events}
+          lessThanYearZero={timeline.lessThanYearZero}
+          greaterThanYearZero={timeline.greaterThanYearZero}
         />
       </Fragment>
     )

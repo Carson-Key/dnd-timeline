@@ -5,7 +5,7 @@ import Auth from './containers/Auth'
 class App extends Component {
   render() {
     return (
-      <Auth lessThanYearZero="EG" greaterThanYearZero="AK"/>
+      <Auth/>
     )
   }
 }

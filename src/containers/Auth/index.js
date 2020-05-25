@@ -88,8 +88,6 @@ class Auth extends Component {
           exitTimeLine={this.exitTimeLine}
           playerName={this.state.playerName}
           playerObject={this.state.playerObject}
-          lessThanYearZero={this.props.lessThanYearZero}
-          greaterThanYearZero={this.props.greaterThanYearZero}
         />
       )
     }

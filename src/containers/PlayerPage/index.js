@@ -42,8 +42,6 @@ class PlayerPage extends Component {
           exitTimeLine={this.exitTimeLine}
           characterName={this.state.characterName}
           playerObject={this.props.playerObject}
-          lessThanYearZero={this.props.lessThanYearZero}
-          greaterThanYearZero={this.props.greaterThanYearZero}
         />
       )
     }

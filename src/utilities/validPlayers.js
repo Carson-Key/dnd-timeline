@@ -63,15 +63,18 @@ export function setTimeline(playerObject, characterKey){
 
 function parseTimeline(characterName, timeline) {
   const newTimeLine = {}
-  const events = Object.keys(timeline)
+  newTimeLine.greaterThanYearZero = timeline.greaterThanYearZero
+  newTimeLine.lessThanYearZero = timeline.lessThanYearZero
+  newTimeLine.events = {}
+  const events = Object.keys(timeline.events)
   events.forEach((year, i) => {
     let yearEvents = []
-    timeline[year].forEach((event, j) => {
+    timeline.events[year].forEach((event, j) => {
       if (event.players[characterName]) {
         yearEvents.push(event)
       }
     })
-    newTimeLine[year] = yearEvents
+    newTimeLine.events[year] = yearEvents
   })
 
   return newTimeLine
