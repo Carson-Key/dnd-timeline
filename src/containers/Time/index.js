@@ -1,13 +1,12 @@
 import React, { Component, Fragment } from 'react'
 import './index.css'
 import { Media } from 'reactstrap'
+import { sortEvents } from '../../utilities/sortEvents.js'
 
 class Time extends Component {
   render() {
     const { timeline } = this.props
-    const events = Object.keys(timeline).sort((a, b) => {
-      return +parseInt(a) - +parseInt(b)
-    })
+    const events = sortEvents(timeline)
     return (
       <Fragment>
         <br />
