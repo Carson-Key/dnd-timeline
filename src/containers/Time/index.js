@@ -2,6 +2,7 @@ import React, { Component, Fragment } from 'react'
 import './index.css'
 import { Media } from 'reactstrap'
 import { sortEvents } from '../../utilities/sortEvents.js'
+import { decideDateSuffix } from '../../utilities/decideDateSuffix.js'
 
 class Time extends Component {
   render() {
@@ -12,17 +13,11 @@ class Time extends Component {
         <br />
         {
           events.map((year, i) => {
-            var dateNumber = parseInt(year)
-            var date
-            if (dateNumber < 0) {
-              date = Math.abs(dateNumber)
-              date = date.toString()
-              date = date + " " + this.props.lessThanYearZero
-            } else if (dateNumber >= 0) {
-              date = Math.abs(dateNumber)
-              date = date.toString()
-              date = date + " " + this.props.greaterThanYearZero
-            }
+            const date = decideDateSuffix(
+              parseInt(year),
+              this.props.lessThanYearZero,
+              this.props.greaterThanYearZero
+            )
             return timeline[year].map((event, j) => {
               return (
                 <center key={j}>
