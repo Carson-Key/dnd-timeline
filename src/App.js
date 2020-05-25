@@ -1,13 +1,12 @@
 import React, { Component } from 'react'
 import './App.css'
-import AuthTime from './containers/Auth'
-import { timeline } from './utilities/timeline.js'
+import Auth from './containers/Auth'
 
 class App extends Component {
   render() {
     return (
       <div>
-        <AuthTime timeline={timeline} lessThanYearZero="EG" greaterThanYearZero="AK"/>
+        <Auth lessThanYearZero="EG" greaterThanYearZero="AK"/>
       </div>
     )
   }
