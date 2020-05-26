@@ -1,0 +1,71 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Render Auth -> with no props 1`] = `
+<div
+  className="container"
+>
+  <br />
+  <div
+    className="row"
+  >
+    <div
+      className="col"
+    >
+      <div
+        className="jumbotron jumbotron-fluid"
+      >
+        <div
+          className="container-fluid"
+        >
+          <center>
+            <h1
+              className="display-3"
+            >
+              Timeline
+            </h1>
+          </center>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="row"
+  >
+    <div
+      className="col"
+    >
+      <label
+        htmlFor="playerName"
+      >
+        What is Your Name:
+      </label>
+      <center>
+        <div
+          className="input-group"
+        >
+          <input
+            className="form-control"
+            id="playerName"
+            onChange={[Function]}
+            onKeyPress={[Function]}
+            placeholder="John Smith"
+            type="text"
+          />
+          <div
+            className="input-group-append"
+          >
+            <button
+              aria-label={null}
+              className="btn btn-secondary"
+              onClick={[Function]}
+              type="button"
+            >
+              Enter
+            </button>
+          </div>
+        </div>
+      </center>
+    </div>
+  </div>
+</div>
+`;
