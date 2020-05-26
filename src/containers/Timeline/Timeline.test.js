@@ -1,7 +1,6 @@
-import React from "react";
-import { render } from "@testing-library/react";
-import Timeline from "./index.js";
-import renderer from 'react-test-renderer';
+import React from "react"
+import Timeline from "./index.js"
+import renderer from 'react-test-renderer'
 
 describe('Render Timeline ->', () => {
 
@@ -21,10 +20,10 @@ describe('Render Timeline ->', () => {
           }}
         characterName="cade"
       />,
-    );
+    )
 
-    let tree = component.toJSON();
-    expect(tree).toMatchSnapshot();
-  });
+    let tree = component.toJSON()
+    expect(tree).toMatchSnapshot()
+  })
 
 })

@@ -1,7 +1,6 @@
-import React from "react";
-import { render } from "@testing-library/react";
-import CharacterEntry from "./index.js";
-import renderer from 'react-test-renderer';
+import React from "react"
+import CharacterEntry from "./index.js"
+import renderer from 'react-test-renderer'
 
 describe('Render CharacterEntry ->', () => {
 
@@ -12,11 +11,11 @@ describe('Render CharacterEntry ->', () => {
           {characters: {}}
         }
       />,
-    );
+    )
 
-    let tree = component.toJSON();
-    expect(tree).toMatchSnapshot();
-  });
+    let tree = component.toJSON()
+    expect(tree).toMatchSnapshot()
+  })
 
   test('with one character', () => {
     const component = renderer.create(
@@ -33,11 +32,11 @@ describe('Render CharacterEntry ->', () => {
           }}
         }
       />,
-    );
+    )
 
-    let tree = component.toJSON();
-    expect(tree).toMatchSnapshot();
-  });
+    let tree = component.toJSON()
+    expect(tree).toMatchSnapshot()
+  })
 
   test('with multiple characters', () => {
     const component = renderer.create(
@@ -63,10 +62,10 @@ describe('Render CharacterEntry ->', () => {
           }
         }
       />,
-    );
+    )
 
-    let tree = component.toJSON();
-    expect(tree).toMatchSnapshot();
-  });
+    let tree = component.toJSON()
+    expect(tree).toMatchSnapshot()
+  })
 
 })

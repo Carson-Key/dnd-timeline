@@ -1,18 +1,17 @@
-import React from "react";
-import { render } from "@testing-library/react";
-import Time from "./index.js";
-import renderer from 'react-test-renderer';
+import React from "react"
+import Time from "./index.js"
+import renderer from 'react-test-renderer'
 
 describe('Render Time ->', () => {
 
   test('with blank timeline prop', () => {
     const component = renderer.create(
       <Time timeline={{}}/>,
-    );
+    )
 
-    let tree = component.toJSON();
-    expect(tree).toMatchSnapshot();
-  });
+    let tree = component.toJSON()
+    expect(tree).toMatchSnapshot()
+  })
 
   test('with out year suffix timeline prop', () => {
     const component = renderer.create(
@@ -23,11 +22,11 @@ describe('Render Time ->', () => {
           }
         ]
       }}/>,
-    );
+    )
 
-    let tree = component.toJSON();
-    expect(tree).toMatchSnapshot();
-  });
+    let tree = component.toJSON()
+    expect(tree).toMatchSnapshot()
+  })
 
   test('with events and year suffix timeline prop', () => {
     const component = renderer.create(
@@ -42,11 +41,11 @@ describe('Render Time ->', () => {
         lessThanYearZero="BCE"
         greaterThanYearZero="AD"
       />,
-    );
+    )
 
-    let tree = component.toJSON();
-    expect(tree).toMatchSnapshot();
-  });
+    let tree = component.toJSON()
+    expect(tree).toMatchSnapshot()
+  })
 
   test('with multiple years', () => {
     const component = renderer.create(
@@ -66,11 +65,11 @@ describe('Render Time ->', () => {
         lessThanYearZero="BCE"
         greaterThanYearZero="AD"
       />,
-    );
+    )
 
-    let tree = component.toJSON();
-    expect(tree).toMatchSnapshot();
-  });
+    let tree = component.toJSON()
+    expect(tree).toMatchSnapshot()
+  })
 
   test('with multiple events', () => {
     const component = renderer.create(
@@ -88,11 +87,11 @@ describe('Render Time ->', () => {
         lessThanYearZero="BCE"
         greaterThanYearZero="AD"
       />,
-    );
+    )
 
-    let tree = component.toJSON();
-    expect(tree).toMatchSnapshot();
-  });
+    let tree = component.toJSON()
+    expect(tree).toMatchSnapshot()
+  })
 
   test('with multiple events and years', () => {
     const component = renderer.create(
@@ -118,10 +117,10 @@ describe('Render Time ->', () => {
         lessThanYearZero="BCE"
         greaterThanYearZero="AD"
       />,
-    );
+    )
 
-    let tree = component.toJSON();
-    expect(tree).toMatchSnapshot();
-  });
+    let tree = component.toJSON()
+    expect(tree).toMatchSnapshot()
+  })
 
 })
