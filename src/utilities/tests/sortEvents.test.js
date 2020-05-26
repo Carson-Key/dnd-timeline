@@ -1,4 +1,4 @@
-import { sortEvents } from './sortEvents.js'
+import { sortEvents } from '../sortEvents.js'
 
 describe('sortEvents ->', () => {
 
