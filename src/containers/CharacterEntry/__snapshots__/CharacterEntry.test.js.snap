@@ -1,0 +1,103 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Render CharacterEntry -> with empty playerObject prop 1`] = `
+<div
+  className="container"
+>
+  <br />
+  <div
+    className="row"
+  >
+    <div
+      className="col"
+    >
+      <center>
+        <p>
+          Pick a character
+        </p>
+        <br />
+      </center>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Render CharacterEntry -> with multiple characters 1`] = `
+<div
+  className="container"
+>
+  <br />
+  <div
+    className="row"
+  >
+    <div
+      className="col"
+    >
+      <center>
+        <p>
+          Pick a character
+        </p>
+        <br />
+      </center>
+      <center>
+        <button
+          aria-label={null}
+          className="btn btn-secondary"
+          onClick={[Function]}
+          type="button"
+        >
+          Cade Goodbarrel
+        </button>
+        <br />
+        <br />
+      </center>
+      <center>
+        <button
+          aria-label={null}
+          className="btn btn-secondary"
+          onClick={[Function]}
+          type="button"
+        >
+          Cade Goodbarrel
+        </button>
+        <br />
+        <br />
+      </center>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Render CharacterEntry -> with one character 1`] = `
+<div
+  className="container"
+>
+  <br />
+  <div
+    className="row"
+  >
+    <div
+      className="col"
+    >
+      <center>
+        <p>
+          Pick a character
+        </p>
+        <br />
+      </center>
+      <center>
+        <button
+          aria-label={null}
+          className="btn btn-secondary"
+          onClick={[Function]}
+          type="button"
+        >
+          Cade Goodbarrel
+        </button>
+        <br />
+        <br />
+      </center>
+    </div>
+  </div>
+</div>
+`;
