@@ -1,0 +1,243 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Render Time -> with blank timeline prop 1`] = `<br />`;
+
+exports[`Render Time -> with events and year suffix timeline prop 1`] = `
+Array [
+  <br />,
+  <center>
+    <div
+      className="media"
+    >
+      <div
+        className="media-body"
+      >
+        <h4
+          className="media-heading"
+        >
+          1776 AD
+        </h4>
+        America!!!
+      </div>
+    </div>
+    <br />
+    <div
+      className="line"
+    />
+    <br />
+  </center>,
+]
+`;
+
+exports[`Render Time -> with multiple events 1`] = `
+Array [
+  <br />,
+  <center>
+    <div
+      className="media"
+    >
+      <div
+        className="media-body"
+      >
+        <h4
+          className="media-heading"
+        >
+          1776 AD
+        </h4>
+        America!!!
+      </div>
+    </div>
+    <br />
+    <div
+      className="line"
+    />
+    <br />
+  </center>,
+  <center>
+    <div
+      className="media"
+    >
+      <div
+        className="media-body"
+      >
+        <h4
+          className="media-heading"
+        >
+          1776 AD
+        </h4>
+        America 2.0!!!
+      </div>
+    </div>
+    <br />
+    <div
+      className="line"
+    />
+    <br />
+  </center>,
+]
+`;
+
+exports[`Render Time -> with multiple events and years 1`] = `
+Array [
+  <br />,
+  <center>
+    <div
+      className="media"
+    >
+      <div
+        className="media-body"
+      >
+        <h4
+          className="media-heading"
+        >
+          1776 AD
+        </h4>
+        America!!!
+      </div>
+    </div>
+    <br />
+    <div
+      className="line"
+    />
+    <br />
+  </center>,
+  <center>
+    <div
+      className="media"
+    >
+      <div
+        className="media-body"
+      >
+        <h4
+          className="media-heading"
+        >
+          1776 AD
+        </h4>
+        America 2.0!!!
+      </div>
+    </div>
+    <br />
+    <div
+      className="line"
+    />
+    <br />
+  </center>,
+  <center>
+    <div
+      className="media"
+    >
+      <div
+        className="media-body"
+      >
+        <h4
+          className="media-heading"
+        >
+          1777 AD
+        </h4>
+        More America!!!
+      </div>
+    </div>
+    <br />
+    <div
+      className="line"
+    />
+    <br />
+  </center>,
+  <center>
+    <div
+      className="media"
+    >
+      <div
+        className="media-body"
+      >
+        <h4
+          className="media-heading"
+        >
+          1777 AD
+        </h4>
+        More America 2.0!!!
+      </div>
+    </div>
+    <br />
+    <div
+      className="line"
+    />
+    <br />
+  </center>,
+]
+`;
+
+exports[`Render Time -> with multiple years 1`] = `
+Array [
+  <br />,
+  <center>
+    <div
+      className="media"
+    >
+      <div
+        className="media-body"
+      >
+        <h4
+          className="media-heading"
+        >
+          1776 AD
+        </h4>
+        America!!!
+      </div>
+    </div>
+    <br />
+    <div
+      className="line"
+    />
+    <br />
+  </center>,
+  <center>
+    <div
+      className="media"
+    >
+      <div
+        className="media-body"
+      >
+        <h4
+          className="media-heading"
+        >
+          1777 AD
+        </h4>
+        More America!!!
+      </div>
+    </div>
+    <br />
+    <div
+      className="line"
+    />
+    <br />
+  </center>,
+]
+`;
+
+exports[`Render Time -> with out year suffix timeline prop 1`] = `
+Array [
+  <br />,
+  <center>
+    <div
+      className="media"
+    >
+      <div
+        className="media-body"
+      >
+        <h4
+          className="media-heading"
+        >
+          1776 undefined
+        </h4>
+        America!!!
+      </div>
+    </div>
+    <br />
+    <div
+      className="line"
+    />
+    <br />
+  </center>,
+]
+`;
