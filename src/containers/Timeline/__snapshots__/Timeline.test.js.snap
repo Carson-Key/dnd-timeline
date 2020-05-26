@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Render Timeline -> with minimal props 1`] = `
+Array [
+  <button
+    aria-label={null}
+    className="exitButton btn btn-danger"
+    onClick={[Function]}
+  >
+    exit 
+    Cade
+  </button>,
+  <div
+    className="jumbotron jumbotron-fluid"
+  >
+    <div
+      className="container-fluid"
+    >
+      <center>
+        <h1
+          className="display-3"
+        >
+          Cade's
+           Timeline
+        </h1>
+      </center>
+    </div>
+  </div>,
+  <br />,
+]
+`;
