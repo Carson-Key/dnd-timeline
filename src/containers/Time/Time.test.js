@@ -4,6 +4,11 @@ import renderer from 'react-test-renderer'
 
 describe('Render Time ->', () => {
 
+  beforeEach(() => {
+    const originalError = console.error
+    console.error = jest.fn()
+  })
+
   test('with blank timeline prop', () => {
     const component = renderer.create(
       <Time timeline={{}}/>,
