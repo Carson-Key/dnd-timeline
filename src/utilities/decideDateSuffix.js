@@ -1,5 +1,8 @@
 export function decideDateSuffix(year, lessThanYearZero, greaterThanYearZero) {
-  if (year < 0) {
+  if (year == null || year == undefined || typeof year != 'number') {
+    console.log("decideDateSuffix was passed: " + year + ", " + lessThanYearZero + ", " + greaterThanYearZero) 
+    return "Error!"
+  } else if (year < 0) {
     return dateToString(year, lessThanYearZero)
   } else if (year >= 0) {
     return dateToString(year, greaterThanYearZero)
@@ -16,7 +19,9 @@ function dateToString(year, dateSuffix) {
 
   date = Math.abs(year)
   date = date.toString()
-  date = date + " " + dateSuffix
+  if (dateSuffix !== "") {
+    date = date + " " + dateSuffix
+  }
 
   return date
 }
