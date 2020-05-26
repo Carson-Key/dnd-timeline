@@ -1,6 +1,16 @@
 export function decideDateSuffix(year, lessThanYearZero, greaterThanYearZero) {
-  if (year == null || year == undefined || typeof year != 'number') {
-    console.log("decideDateSuffix was passed: " + year + ", " + lessThanYearZero + ", " + greaterThanYearZero) 
+  if (
+    year == null ||
+    year == undefined ||
+    typeof year != 'number' ||
+    lessThanYearZero == null ||
+    lessThanYearZero == undefined ||
+    greaterThanYearZero == null ||
+    greaterThanYearZero == undefined ||
+  ) {
+    console.log(
+      "decideDateSuffix was passed: " + year + ", " + lessThanYearZero + ", " + greaterThanYearZero
+    )
     return "Error!"
   } else if (year < 0) {
     return dateToString(year, lessThanYearZero)
