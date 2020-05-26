@@ -8,7 +8,7 @@ export function decideDateSuffix(year, lessThanYearZero, greaterThanYearZero) {
     greaterThanYearZero == null ||
     greaterThanYearZero == undefined
   ) {
-    console.log(
+    console.error(
       "decideDateSuffix was passed: " + year + ", " + lessThanYearZero + ", " + greaterThanYearZero
     )
     return "Error!"
