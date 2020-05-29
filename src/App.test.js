@@ -1,16 +1,16 @@
-import React from 'react'
-import renderer from 'react-test-renderer'
-import App from './App'
+import React from "react"
+import App from "./App.js"
+import { render } from 'enzyme'
+import toJson from "enzyme-to-json";
 
 describe('Renders App', () => {
 
   test('renders with no interact', () => {
-    const component = renderer.create(
+    const app = render(
       <App />,
     )
 
-    let tree = component.toJSON()
-    expect(tree).toMatchSnapshot()
+    expect(toJson(app)).toMatchSnapshot()
   })
 
 })

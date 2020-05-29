@@ -1,7 +1,6 @@
 import React from "react"
 import PlayerPage from "./index.js"
 import { shallow, render } from 'enzyme'
-import renderer from 'react-test-renderer'
 import toJson from "enzyme-to-json";
 
 describe('Render PlayerPage ->', () => {

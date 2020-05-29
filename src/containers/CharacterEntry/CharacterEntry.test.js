@@ -1,11 +1,12 @@
 import React from "react"
 import CharacterEntry from "./index.js"
-import renderer from 'react-test-renderer'
+import { render } from 'enzyme'
+import toJson from "enzyme-to-json";
 
 describe('Render CharacterEntry ->', () => {
 
   test('with empty playerObject prop', () => {
-    const component = renderer.create(
+    const characterEntry = render(
       <CharacterEntry
         playerObject={
           {characters: {}}
@@ -13,12 +14,11 @@ describe('Render CharacterEntry ->', () => {
       />,
     )
 
-    let tree = component.toJSON()
-    expect(tree).toMatchSnapshot()
+    expect(toJson(characterEntry)).toMatchSnapshot()
   })
 
   test('with one character', () => {
-    const component = renderer.create(
+    const characterEntry = render(
       <CharacterEntry
         playerObject={
           {characters: {
@@ -34,12 +34,11 @@ describe('Render CharacterEntry ->', () => {
       />,
     )
 
-    let tree = component.toJSON()
-    expect(tree).toMatchSnapshot()
+    expect(toJson(characterEntry)).toMatchSnapshot()
   })
 
   test('with multiple characters', () => {
-    const component = renderer.create(
+    const characterEntry = render(
       <CharacterEntry
         playerObject={
           {
@@ -64,8 +63,7 @@ describe('Render CharacterEntry ->', () => {
       />,
     )
 
-    let tree = component.toJSON()
-    expect(tree).toMatchSnapshot()
+    expect(toJson(characterEntry)).toMatchSnapshot()
   })
 
 })

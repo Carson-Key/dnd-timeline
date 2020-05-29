@@ -1,6 +1,7 @@
 import React from "react"
 import Time from "./index.js"
-import renderer from 'react-test-renderer'
+import { render } from 'enzyme'
+import toJson from "enzyme-to-json";
 
 describe('Render Time ->', () => {
 
@@ -10,16 +11,15 @@ describe('Render Time ->', () => {
   })
 
   test('with blank timeline prop', () => {
-    const component = renderer.create(
+    const time = render(
       <Time timeline={{}}/>,
     )
 
-    let tree = component.toJSON()
-    expect(tree).toMatchSnapshot()
+    expect(toJson(time)).toMatchSnapshot()
   })
 
   test('with out year suffix timeline prop', () => {
-    const component = renderer.create(
+    const time = render(
       <Time timeline={{
         "1776": [
           {
@@ -29,12 +29,11 @@ describe('Render Time ->', () => {
       }}/>,
     )
 
-    let tree = component.toJSON()
-    expect(tree).toMatchSnapshot()
+    expect(toJson(time)).toMatchSnapshot()
   })
 
   test('with events and year suffix timeline prop', () => {
-    const component = renderer.create(
+    const time = render(
       <Time
         timeline={{
           "1776": [
@@ -48,12 +47,11 @@ describe('Render Time ->', () => {
       />,
     )
 
-    let tree = component.toJSON()
-    expect(tree).toMatchSnapshot()
+    expect(toJson(time)).toMatchSnapshot()
   })
 
   test('with multiple years', () => {
-    const component = renderer.create(
+    const time = render(
       <Time
         timeline={{
           "1776": [
@@ -72,12 +70,11 @@ describe('Render Time ->', () => {
       />,
     )
 
-    let tree = component.toJSON()
-    expect(tree).toMatchSnapshot()
+    expect(toJson(time)).toMatchSnapshot()
   })
 
   test('with multiple events', () => {
-    const component = renderer.create(
+    const time = render(
       <Time
         timeline={{
           "1776": [
@@ -94,12 +91,11 @@ describe('Render Time ->', () => {
       />,
     )
 
-    let tree = component.toJSON()
-    expect(tree).toMatchSnapshot()
+    expect(toJson(time)).toMatchSnapshot()
   })
 
   test('with multiple events and years', () => {
-    const component = renderer.create(
+    const time = render(
       <Time
         timeline={{
           "1776": [
@@ -124,8 +120,7 @@ describe('Render Time ->', () => {
       />,
     )
 
-    let tree = component.toJSON()
-    expect(tree).toMatchSnapshot()
+    expect(toJson(time)).toMatchSnapshot()
   })
 
 })

@@ -7,13 +7,13 @@ Array [
   <br />,
   <center>
     <div
-      className="media"
+      class="media"
     >
       <div
-        className="media-body"
+        class="media-body"
       >
         <h4
-          className="media-heading"
+          class="media-heading"
         >
           1776 AD
         </h4>
@@ -22,7 +22,7 @@ Array [
     </div>
     <br />
     <div
-      className="line"
+      class="line"
     />
     <br />
   </center>,
@@ -34,13 +34,13 @@ Array [
   <br />,
   <center>
     <div
-      className="media"
+      class="media"
     >
       <div
-        className="media-body"
+        class="media-body"
       >
         <h4
-          className="media-heading"
+          class="media-heading"
         >
           1776 AD
         </h4>
@@ -49,19 +49,19 @@ Array [
     </div>
     <br />
     <div
-      className="line"
+      class="line"
     />
     <br />
   </center>,
   <center>
     <div
-      className="media"
+      class="media"
     >
       <div
-        className="media-body"
+        class="media-body"
       >
         <h4
-          className="media-heading"
+          class="media-heading"
         >
           1776 AD
         </h4>
@@ -70,7 +70,7 @@ Array [
     </div>
     <br />
     <div
-      className="line"
+      class="line"
     />
     <br />
   </center>,
@@ -82,13 +82,13 @@ Array [
   <br />,
   <center>
     <div
-      className="media"
+      class="media"
     >
       <div
-        className="media-body"
+        class="media-body"
       >
         <h4
-          className="media-heading"
+          class="media-heading"
         >
           1776 AD
         </h4>
@@ -97,19 +97,19 @@ Array [
     </div>
     <br />
     <div
-      className="line"
+      class="line"
     />
     <br />
   </center>,
   <center>
     <div
-      className="media"
+      class="media"
     >
       <div
-        className="media-body"
+        class="media-body"
       >
         <h4
-          className="media-heading"
+          class="media-heading"
         >
           1776 AD
         </h4>
@@ -118,19 +118,19 @@ Array [
     </div>
     <br />
     <div
-      className="line"
+      class="line"
     />
     <br />
   </center>,
   <center>
     <div
-      className="media"
+      class="media"
     >
       <div
-        className="media-body"
+        class="media-body"
       >
         <h4
-          className="media-heading"
+          class="media-heading"
         >
           1777 AD
         </h4>
@@ -139,19 +139,19 @@ Array [
     </div>
     <br />
     <div
-      className="line"
+      class="line"
     />
     <br />
   </center>,
   <center>
     <div
-      className="media"
+      class="media"
     >
       <div
-        className="media-body"
+        class="media-body"
       >
         <h4
-          className="media-heading"
+          class="media-heading"
         >
           1777 AD
         </h4>
@@ -160,7 +160,7 @@ Array [
     </div>
     <br />
     <div
-      className="line"
+      class="line"
     />
     <br />
   </center>,
@@ -172,13 +172,13 @@ Array [
   <br />,
   <center>
     <div
-      className="media"
+      class="media"
     >
       <div
-        className="media-body"
+        class="media-body"
       >
         <h4
-          className="media-heading"
+          class="media-heading"
         >
           1776 AD
         </h4>
@@ -187,19 +187,19 @@ Array [
     </div>
     <br />
     <div
-      className="line"
+      class="line"
     />
     <br />
   </center>,
   <center>
     <div
-      className="media"
+      class="media"
     >
       <div
-        className="media-body"
+        class="media-body"
       >
         <h4
-          className="media-heading"
+          class="media-heading"
         >
           1777 AD
         </h4>
@@ -208,7 +208,7 @@ Array [
     </div>
     <br />
     <div
-      className="line"
+      class="line"
     />
     <br />
   </center>,
@@ -220,13 +220,13 @@ Array [
   <br />,
   <center>
     <div
-      className="media"
+      class="media"
     >
       <div
-        className="media-body"
+        class="media-body"
       >
         <h4
-          className="media-heading"
+          class="media-heading"
         >
           Error!
         </h4>
@@ -235,7 +235,7 @@ Array [
     </div>
     <br />
     <div
-      className="line"
+      class="line"
     />
     <br />
   </center>,

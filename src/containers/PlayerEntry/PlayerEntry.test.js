@@ -1,16 +1,16 @@
 import React from "react"
 import PlayerEntry from "./index.js"
-import renderer from 'react-test-renderer'
+import { render } from 'enzyme'
+import toJson from "enzyme-to-json";
 
 describe('Render PlayerEntry ->', () => {
 
   test('with no props', () => {
-    const component = renderer.create(
+    const playerEntry = render(
       <PlayerEntry />,
     )
 
-    let tree = component.toJSON()
-    expect(tree).toMatchSnapshot()
+    expect(toJson(playerEntry)).toMatchSnapshot()
   })
 
 })

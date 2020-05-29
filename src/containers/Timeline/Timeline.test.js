@@ -1,11 +1,12 @@
 import React from "react"
 import Timeline from "./index.js"
-import renderer from 'react-test-renderer'
+import { render } from 'enzyme'
+import toJson from "enzyme-to-json";
 
 describe('Render Timeline ->', () => {
 
   test('with minimal props', () => {
-    const component = renderer.create(
+    const timeLine = render(
       <Timeline
         playerObject={{
           characters: {
@@ -22,8 +23,7 @@ describe('Render Timeline ->', () => {
       />,
     )
 
-    let tree = component.toJSON()
-    expect(tree).toMatchSnapshot()
+    expect(toJson(timeLine)).toMatchSnapshot()
   })
 
 })

@@ -2,24 +2,24 @@
 
 exports[`Renders App renders with no interact 1`] = `
 <div
-  className="container"
+  class="container"
 >
   <br />
   <div
-    className="row"
+    class="row"
   >
     <div
-      className="col"
+      class="col"
     >
       <div
-        className="jumbotron jumbotron-fluid"
+        class="jumbotron jumbotron-fluid"
       >
         <div
-          className="container-fluid"
+          class="container-fluid"
         >
           <center>
             <h1
-              className="display-3"
+              class="display-3"
             >
               Timeline
             </h1>
@@ -29,35 +29,31 @@ exports[`Renders App renders with no interact 1`] = `
     </div>
   </div>
   <div
-    className="row"
+    class="row"
   >
     <div
-      className="col"
+      class="col"
     >
       <label
-        htmlFor="playerName"
+        for="playerName"
       >
         What is Your Name:
       </label>
       <center>
         <div
-          className="input-group"
+          class="input-group"
         >
           <input
-            className="form-control"
+            class="form-control"
             id="playerName"
-            onChange={[Function]}
-            onKeyPress={[Function]}
             placeholder="John Smith"
             type="text"
           />
           <div
-            className="input-group-append"
+            class="input-group-append"
           >
             <button
-              aria-label={null}
-              className="btn btn-secondary"
-              onClick={[Function]}
+              class="btn btn-secondary"
               type="button"
             >
               Enter

@@ -2,14 +2,14 @@
 
 exports[`Render CharacterEntry -> with empty playerObject prop 1`] = `
 <div
-  className="container"
+  class="container"
 >
   <br />
   <div
-    className="row"
+    class="row"
   >
     <div
-      className="col"
+      class="col"
     >
       <center>
         <p>
@@ -24,14 +24,14 @@ exports[`Render CharacterEntry -> with empty playerObject prop 1`] = `
 
 exports[`Render CharacterEntry -> with multiple characters 1`] = `
 <div
-  className="container"
+  class="container"
 >
   <br />
   <div
-    className="row"
+    class="row"
   >
     <div
-      className="col"
+      class="col"
     >
       <center>
         <p>
@@ -41,9 +41,7 @@ exports[`Render CharacterEntry -> with multiple characters 1`] = `
       </center>
       <center>
         <button
-          aria-label={null}
-          className="btn btn-secondary"
-          onClick={[Function]}
+          class="btn btn-secondary"
           type="button"
         >
           Cade Goodbarrel
@@ -53,9 +51,7 @@ exports[`Render CharacterEntry -> with multiple characters 1`] = `
       </center>
       <center>
         <button
-          aria-label={null}
-          className="btn btn-secondary"
-          onClick={[Function]}
+          class="btn btn-secondary"
           type="button"
         >
           Cade Goodbarrel
@@ -70,14 +66,14 @@ exports[`Render CharacterEntry -> with multiple characters 1`] = `
 
 exports[`Render CharacterEntry -> with one character 1`] = `
 <div
-  className="container"
+  class="container"
 >
   <br />
   <div
-    className="row"
+    class="row"
   >
     <div
-      className="col"
+      class="col"
     >
       <center>
         <p>
@@ -87,9 +83,7 @@ exports[`Render CharacterEntry -> with one character 1`] = `
       </center>
       <center>
         <button
-          aria-label={null}
-          className="btn btn-secondary"
-          onClick={[Function]}
+          class="btn btn-secondary"
           type="button"
         >
           Cade Goodbarrel

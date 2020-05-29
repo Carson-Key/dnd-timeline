@@ -3,25 +3,21 @@
 exports[`Render Timeline -> with minimal props 1`] = `
 Array [
   <button
-    aria-label={null}
-    className="exitButton btn btn-danger"
-    onClick={[Function]}
+    class="exitButton btn btn-danger"
   >
-    exit 
-    Cade
+    exit Cade
   </button>,
   <div
-    className="jumbotron jumbotron-fluid"
+    class="jumbotron jumbotron-fluid"
   >
     <div
-      className="container-fluid"
+      class="container-fluid"
     >
       <center>
         <h1
-          className="display-3"
+          class="display-3"
         >
-          Cade's
-           Timeline
+          Cade's Timeline
         </h1>
       </center>
     </div>
