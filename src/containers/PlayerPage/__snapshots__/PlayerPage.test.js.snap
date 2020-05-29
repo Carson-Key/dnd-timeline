@@ -1,15 +1,35 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`Render PlayerPage -> after setting state moveOn to go, page should render Timeline 1`] = `
+<Timeline
+  characterName="cade"
+  exitTimeLine={[Function]}
+  playerObject={
+    Object {
+      "characters": Object {
+        "cade": Object {
+          "characterKey": "cade",
+          "name": "Cade Goodbarrel",
+          "timeline": Object {
+            "events": Object {},
+          },
+        },
+      },
+    }
+  }
+/>
+`;
+
 exports[`Render PlayerPage -> with minimal props 1`] = `
 <div
-  className="container"
+  class="container"
 >
   <br />
   <div
-    className="row"
+    class="row"
   >
     <div
-      className="col"
+      class="col"
     >
       <center>
         <p>
@@ -19,9 +39,7 @@ exports[`Render PlayerPage -> with minimal props 1`] = `
       </center>
       <center>
         <button
-          aria-label={null}
-          className="btn btn-secondary"
-          onClick={[Function]}
+          class="btn btn-secondary"
           type="button"
         >
           Cade Goodbarrel
