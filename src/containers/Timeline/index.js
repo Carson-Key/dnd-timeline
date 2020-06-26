@@ -16,6 +16,7 @@ class Timeline extends Component {
       <Fragment>
         <Button
           className="exitButton"
+          id="timelineExitButton"
           color="danger"
           onClick={this.props.exitTimeLine}
         >

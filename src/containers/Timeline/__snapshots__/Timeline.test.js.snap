@@ -4,6 +4,7 @@ exports[`Render Timeline -> with minimal props 1`] = `
 Array [
   <button
     class="exitButton btn btn-danger"
+    id="timelineExitButton"
   >
     exit Cade
   </button>,
