@@ -1,0 +1,1 @@
+{"version":3,"sources":["index.css"],"names":[],"mappings":"AAAA,KACE,QAAS,CACT,mJAEY,CACZ,kCAAmC,CACnC,iCACF,CAEA,KACE,yEAEF,CAZA,YACE,cAAe,CACf,aAAc,CACd,gBACF,CAJA,MACE,cAAe,CACf,eAAgB,CAChB,sCACF","file":"main.227a9ac0.chunk.css","sourcesContent":[".line {\n  margin-left: 2%;\n  margin-right: 2%;\n  border-bottom: 2px solid rgba(0, 0, 0, 0.5);\n}\n"]}

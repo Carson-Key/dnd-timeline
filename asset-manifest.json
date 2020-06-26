@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/dnd-timeline/static/css/main.8564a55b.chunk.css",
-    "main.js": "/dnd-timeline/static/js/main.69b747fa.chunk.js",
-    "main.js.map": "/dnd-timeline/static/js/main.69b747fa.chunk.js.map",
-    "runtime-main.js": "/dnd-timeline/static/js/runtime-main.08b25a62.js",
-    "runtime-main.js.map": "/dnd-timeline/static/js/runtime-main.08b25a62.js.map",
-    "static/js/2.749796b9.chunk.js": "/dnd-timeline/static/js/2.749796b9.chunk.js",
-    "static/js/2.749796b9.chunk.js.map": "/dnd-timeline/static/js/2.749796b9.chunk.js.map",
-    "index.html": "/dnd-timeline/index.html",
-    "precache-manifest.e020f2a4bb1748d390a5fc2cf3fc9e18.js": "/dnd-timeline/precache-manifest.e020f2a4bb1748d390a5fc2cf3fc9e18.js",
-    "service-worker.js": "/dnd-timeline/service-worker.js",
-    "static/css/main.8564a55b.chunk.css.map": "/dnd-timeline/static/css/main.8564a55b.chunk.css.map",
-    "static/js/2.749796b9.chunk.js.LICENSE.txt": "/dnd-timeline/static/js/2.749796b9.chunk.js.LICENSE.txt"
+    "main.css": "/dndtimeline.com/static/css/main.227a9ac0.chunk.css",
+    "main.js": "/dndtimeline.com/static/js/main.c97c6486.chunk.js",
+    "main.js.map": "/dndtimeline.com/static/js/main.c97c6486.chunk.js.map",
+    "runtime-main.js": "/dndtimeline.com/static/js/runtime-main.65d4261d.js",
+    "runtime-main.js.map": "/dndtimeline.com/static/js/runtime-main.65d4261d.js.map",
+    "static/js/2.50839f91.chunk.js": "/dndtimeline.com/static/js/2.50839f91.chunk.js",
+    "static/js/2.50839f91.chunk.js.map": "/dndtimeline.com/static/js/2.50839f91.chunk.js.map",
+    "index.html": "/dndtimeline.com/index.html",
+    "precache-manifest.b45d757adca08a822fba5374c09574f1.js": "/dndtimeline.com/precache-manifest.b45d757adca08a822fba5374c09574f1.js",
+    "service-worker.js": "/dndtimeline.com/service-worker.js",
+    "static/css/main.227a9ac0.chunk.css.map": "/dndtimeline.com/static/css/main.227a9ac0.chunk.css.map",
+    "static/js/2.50839f91.chunk.js.LICENSE.txt": "/dndtimeline.com/static/js/2.50839f91.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.08b25a62.js",
-    "static/js/2.749796b9.chunk.js",
-    "static/css/main.8564a55b.chunk.css",
-    "static/js/main.69b747fa.chunk.js"
+    "static/js/runtime-main.65d4261d.js",
+    "static/js/2.50839f91.chunk.js",
+    "static/css/main.227a9ac0.chunk.css",
+    "static/js/main.c97c6486.chunk.js"
   ]
 }
