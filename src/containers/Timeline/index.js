@@ -10,7 +10,8 @@ import { addPossesive } from '../../utilities/addPossesive.js'
 
 class Timeline extends Component {
   render() {
-    const timeline = this.props.playerObject.characters[this.props.characterName].timeline
+    const playerObject = this.props.playerObject
+    const timeline = playerObject.timelines[this.props.timelineName].characters[this.props.characterName].timeline
 
     return (
       <Fragment>

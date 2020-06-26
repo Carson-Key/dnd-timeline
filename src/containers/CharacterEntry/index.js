@@ -1,16 +1,15 @@
 import React, { Component, Fragment } from 'react'
 import './index.css'
 import {
-  Button,
   Container,
   Row,
   Col,
 } from 'reactstrap';
-import { setTimeline } from '../../utilities/validPlayers.js'
+import Character from '../Character'
 
 class CharacterEntry extends Component {
   render() {
-    const characters = Object.keys(this.props.playerObject.characters)
+    const timelines = Object.keys(this.props.playerObject.timelines)
     return (
       <Container>
         <br />
@@ -21,19 +20,19 @@ class CharacterEntry extends Component {
               <br />
             </center>
             {
-              characters.map((character, i) => {
-                setTimeline(this.props.playerObject, character)
+              timelines.map((timeline, i) => {
                 return (
-                  <Fragment key={character}>
+                  <Fragment key={i}>
                     <center>
-                      <Button
-                        onClick={() => {this.props.characterSelect(character)}}
-                      >
-                        {this.props.playerObject.characters[character].name}
-                      </Button>
-                      <br />
+                      <p>{this.props.playerObject.timelines[timeline].name}</p>
                       <br />
                     </center>
+                    <Character
+                      playerObject={this.props.playerObject}
+                      characters={this.props.playerObject.timelines[timeline].characters}
+                      timelineKey={timeline}
+                      characterSelect={this.props.characterSelect}
+                    />
                   </Fragment>
                 )
               })

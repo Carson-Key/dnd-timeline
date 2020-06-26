@@ -1,12 +1,12 @@
 export function decideDateSuffix(year, lessThanYearZero, greaterThanYearZero) {
   if (
     year == null ||
-    year == undefined ||
+    year === undefined ||
     typeof year != 'number' ||
     lessThanYearZero == null ||
-    lessThanYearZero == undefined ||
+    lessThanYearZero === undefined ||
     greaterThanYearZero == null ||
-    greaterThanYearZero == undefined
+    greaterThanYearZero === undefined
   ) {
     console.error(
       "decideDateSuffix was passed: " + year + ", " + lessThanYearZero + ", " + greaterThanYearZero

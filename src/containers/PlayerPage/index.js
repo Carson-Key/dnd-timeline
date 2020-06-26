@@ -8,6 +8,7 @@ class PlayerPage extends Component {
     super(props);
     this.state = {
       characterName: "",
+      timelineName: "",
       moveOn: ""
     }
 
@@ -15,9 +16,10 @@ class PlayerPage extends Component {
     this.characterSelect = this.characterSelect.bind(this);
   }
 
-  characterSelect(name) {
+  characterSelect(name, timeline) {
     this.setState({
       characterName: name,
+      timelineName: timeline,
       moveOn: "go"
     })
   }
@@ -41,6 +43,7 @@ class PlayerPage extends Component {
         <Timeline
           exitTimeLine={this.exitTimeLine}
           characterName={this.state.characterName}
+          timelineName={this.state.timelineName}
           playerObject={this.props.playerObject}
         />
       )

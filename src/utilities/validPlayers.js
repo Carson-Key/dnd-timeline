@@ -1,45 +1,108 @@
-import { validCharacters } from "./validCharacters.js"
+import { validCharactersOne, validCharactersTwo } from "./validCharacters.js"
 
 const validPlayers = {
   "butts": {
-    "characters": validCharacters
+    "timelines": {
+      "{PLACEHOLDER}": {
+        "name": "{PLACEHOLDER}",
+        "characters": validCharactersTwo
+      },
+      "ameria": {
+        "name": "Ameria",
+        "characters": validCharactersOne
+      }
+    }
   },
   "gold": {
-    "characters": {
-      "cade": validCharacters["cade"],
-      "hazy": validCharacters["hazy"],
-      "dalgur": validCharacters["dalgur"]
+    "timelines": {
+      "{PLACEHOLDER}": {
+        "name": "{PLACEHOLDER}",
+        "characters": validCharactersTwo
+      },
+      "ameria": {
+        "name": "Ameria",
+        "characters": {
+          "cade": validCharactersOne["cade"],
+          "hazy": validCharactersOne["hazy"],
+          "dalgur": validCharactersOne["dalgur"]
+        }
+      }
     }
   },
   "4470": {
-    "characters": {
-      "crainer": validCharacters["crainer"],
-      "ikoll": validCharacters["ikoll"],
-      "fowl": validCharacters["fowl"],
-      "fish": validCharacters["fish"]
+    "timelines": {
+      "{PLACEHOLDER}": {
+        "name": "{PLACEHOLDER}",
+        "characters": validCharactersTwo
+      },
+      "ameria": {
+        "name": "Ameria",
+        "characters": {
+          "crainer": validCharactersOne["crainer"],
+          "ikoll": validCharactersOne["ikoll"],
+          "fowl": validCharactersOne["fowl"],
+          "fish": validCharactersOne["fish"]
+        }
+      }
     }
   },
   "4848": {
-    "characters": {
-      "naomi": validCharacters["naomi"],
-      "viola": validCharacters["viola"]
+    "timelines": {
+      "{PLACEHOLDER}": {
+        "name": "{PLACEHOLDER}",
+        "characters": validCharactersTwo
+      },
+      "ameria": {
+        "name": "Ameria",
+        "characters": {
+          "naomi": validCharactersOne["naomi"],
+          "viola": validCharactersOne["viola"]
+        }
+      }
     }
   },
   "5784": {
-    "characters": {
-      "indominous": validCharacters["indominous"],
-      "ator": validCharacters["ator"]
+    "timelines": {
+      "{PLACEHOLDER}": {
+        "name": "{PLACEHOLDER}",
+        "characters": validCharactersTwo
+      },
+      "ameria": {
+        "name": "Ameria",
+        "characters": {
+          "indominous": validCharactersOne["indominous"],
+          "ator": validCharactersOne["ator"]
+        }
+      }
     }
   },
   "0876": {
-    "characters": {
-      "mar": validCharacters["mar"],
-      "olorin": validCharacters["olorin"]
+    "timelines": {
+      "{PLACEHOLDER}": {
+        "name": "{PLACEHOLDER}",
+        "characters": validCharactersTwo
+      },
+      "ameria": {
+        "name": "Ameria",
+        "characters": {
+          "mar": validCharactersOne["mar"],
+          "olorin": validCharactersOne["olorin"]
+        }
+      }
     }
   },
   "5450": {
-    "characters": {
-      "storn": validCharacters["storn"]
+    "timelines": {
+      "{PLACEHOLDER}": {
+        "name": "{PLACEHOLDER}",
+        "characters": validCharactersTwo
+      },
+      "ameria": {
+        "name": "Ameria",
+        "characters": {
+          "storn": validCharactersOne["storn"]
+        }
+      }
     }
   }
 }
@@ -53,8 +116,8 @@ export function validatePlayer(name) {
   }
 }
 
-export function setTimeline(playerObject, characterKey){
-  const characterObject = playerObject.characters[characterKey]
+export function setTimeline(playerObject, characterKey, timelineKey){
+  const characterObject = playerObject.timelines[timelineKey].characters[characterKey]
 
   if (characterKey !== "dm") {
     characterObject.timeline = parseTimeline(characterObject.characterKey, characterObject.timeline)
