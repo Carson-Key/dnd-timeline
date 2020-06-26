@@ -17,6 +17,10 @@ exports[`Render CharacterEntry -> with empty playerObject prop 1`] = `
         </p>
         <br />
       </center>
+      <center>
+        <p />
+        <br />
+      </center>
     </div>
   </div>
 </div>
@@ -36,6 +40,12 @@ exports[`Render CharacterEntry -> with multiple characters 1`] = `
       <center>
         <p>
           Pick a character
+        </p>
+        <br />
+      </center>
+      <center>
+        <p>
+          Ameria
         </p>
         <br />
       </center>
@@ -78,6 +88,12 @@ exports[`Render CharacterEntry -> with one character 1`] = `
       <center>
         <p>
           Pick a character
+        </p>
+        <br />
+      </center>
+      <center>
+        <p>
+          Ameria
         </p>
         <br />
       </center>

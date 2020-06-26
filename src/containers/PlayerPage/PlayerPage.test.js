@@ -8,17 +8,25 @@ describe('Render PlayerPage ->', () => {
   test('with minimal props', () => {
     const playerPage = render(
       <PlayerPage
-        playerObject={{
-          characters: {
-            "cade": {
-                "name": "Cade Goodbarrel",
-                "characterKey": "cade",
-                "timeline": {
-                  "events": {}
+        playerObject={
+          {
+            timelines: {
+              ameria: {
+                name: "Ameria",
+                characters: {
+                  "cade": {
+                      "name": "Cade Goodbarrel",
+                      "characterKey": "cade",
+                      "timelineKey": "ameria",
+                      "timeline": {
+                        "events": {}
+                      }
+                    }
                 }
               }
             }
-          }}
+          }
+        }
        />,
     )
 
@@ -28,17 +36,25 @@ describe('Render PlayerPage ->', () => {
   test('after setting state moveOn to go, page should render Timeline', () => {
     const playerPage = shallow(
       <PlayerPage
-        playerObject={{
-          characters: {
-            "cade": {
-                "name": "Cade Goodbarrel",
-                "characterKey": "cade",
-                "timeline": {
-                  "events": {}
+        playerObject={
+          {
+            timelines: {
+              ameria: {
+                name: "Ameria",
+                characters: {
+                  "cade": {
+                      "name": "Cade Goodbarrel",
+                      "characterKey": "cade",
+                      "timelineKey": "ameria",
+                      "timeline": {
+                        "events": {}
+                      }
+                    }
                 }
               }
             }
-          }}
+          }
+        }
        />,
     )
 

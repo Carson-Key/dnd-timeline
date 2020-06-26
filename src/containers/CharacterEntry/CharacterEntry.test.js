@@ -9,7 +9,12 @@ describe('Render CharacterEntry ->', () => {
     const characterEntry = render(
       <CharacterEntry
         playerObject={
-          {characters: {}}
+          {timelines: {
+            empty: {
+              name: "",
+              characters: {}
+            }
+          }}
         }
       />,
     )
@@ -21,15 +26,23 @@ describe('Render CharacterEntry ->', () => {
     const characterEntry = render(
       <CharacterEntry
         playerObject={
-          {characters: {
-            "cade": {
-                "name": "Cade Goodbarrel",
-                "characterKey": "cade",
-                "timeline": {
-                  "events": {}
+          {
+            timelines: {
+              ameria: {
+                name: "Ameria",
+                characters: {
+                  "cade": {
+                      "name": "Cade Goodbarrel",
+                      "characterKey": "cade",
+                      "timelineKey": "ameria",
+                      "timeline": {
+                        "events": {}
+                      }
+                    }
                 }
               }
-          }}
+            }
+          }
         }
       />,
     )
@@ -42,19 +55,25 @@ describe('Render CharacterEntry ->', () => {
       <CharacterEntry
         playerObject={
           {
-            characters: {
-              "cade": {
-                "name": "Cade Goodbarrel",
-                "characterKey": "cade",
-                "timeline": {
-                  "events": {}
-                }
-              },
-              "cade2": {
-                "name": "Cade Goodbarrel",
-                "characterKey": "cade2",
-                "timeline": {
-                  "events": {}
+            timelines: {
+              ameria: {
+                name: "Ameria",
+                characters: {
+                  "cade": {
+                    "name": "Cade Goodbarrel",
+                    "characterKey": "cade",
+                    "timelineKey": "ameria",
+                    "timeline": {
+                      "events": {}
+                    }
+                  },
+                  "cade2": {
+                    "name": "Cade Goodbarrel",
+                    "characterKey": "cade2",
+                    "timeline": {
+                      "events": {}
+                    }
+                  }
                 }
               }
             }

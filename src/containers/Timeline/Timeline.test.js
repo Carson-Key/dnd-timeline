@@ -8,17 +8,26 @@ describe('Render Timeline ->', () => {
   test('with minimal props', () => {
     const timeLine = render(
       <Timeline
-        playerObject={{
-          characters: {
-            "cade": {
-                "name": "Cade Goodbarrel",
-                "characterKey": "cade",
-                "timeline": {
-                  "events": {}
+        playerObject={
+          {
+            timelines: {
+              ameria: {
+                name: "Ameria",
+                characters: {
+                  "cade": {
+                      "name": "Cade Goodbarrel",
+                      "characterKey": "cade",
+                      "timelineKey": "ameria",
+                      "timeline": {
+                        "events": {}
+                      }
+                    }
                 }
               }
             }
-          }}
+          }
+        }
+        timelineName="ameria"
         characterName="cade"
       />,
     )
@@ -35,17 +44,26 @@ describe('Test Timeline ->', () => {
 
     const timeLine = shallow(
       <Timeline
-        playerObject={{
-          characters: {
-            "cade": {
-                "name": "Cade Goodbarrel",
-                "characterKey": "cade",
-                "timeline": {
-                  "events": {}
+        playerObject={
+          {
+            timelines: {
+              ameria: {
+                name: "Ameria",
+                characters: {
+                  "cade": {
+                      "name": "Cade Goodbarrel",
+                      "characterKey": "cade",
+                      "timelineKey": "ameria",
+                      "timeline": {
+                        "events": {}
+                      }
+                    }
                 }
               }
             }
-          }}
+          }
+        }
+        timelineName="ameria"
         characterName="cade"
         exitTimeLine={testExitTimeLine}
       />,

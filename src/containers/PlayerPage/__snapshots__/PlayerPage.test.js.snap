@@ -6,17 +6,24 @@ exports[`Render PlayerPage -> after setting state moveOn to go, page should rend
   exitTimeLine={[Function]}
   playerObject={
     Object {
-      "characters": Object {
-        "cade": Object {
-          "characterKey": "cade",
-          "name": "Cade Goodbarrel",
-          "timeline": Object {
-            "events": Object {},
+      "timelines": Object {
+        "ameria": Object {
+          "characters": Object {
+            "cade": Object {
+              "characterKey": "cade",
+              "name": "Cade Goodbarrel",
+              "timeline": Object {
+                "events": Object {},
+              },
+              "timelineKey": "ameria",
+            },
           },
+          "name": "Ameria",
         },
       },
     }
   }
+  timelineName=""
 />
 `;
 
@@ -34,6 +41,12 @@ exports[`Render PlayerPage -> with minimal props 1`] = `
       <center>
         <p>
           Pick a character
+        </p>
+        <br />
+      </center>
+      <center>
+        <p>
+          Ameria
         </p>
         <br />
       </center>
